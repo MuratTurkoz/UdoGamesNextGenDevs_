@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float horizontal;
     private float vertical;
+    private Vector3 lastPosition;
 
     void Update()
     {
@@ -26,5 +27,18 @@ public class PlayerMovement : MonoBehaviour
     private void Rotation(Vector2 dir)
     {
         // Player's rotation codes 
+    }
+
+    public bool IsPlayerMoving()
+    {
+        if (transform.position != lastPosition)
+        {
+            lastPosition = transform.position;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
