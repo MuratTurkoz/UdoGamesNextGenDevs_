@@ -8,7 +8,7 @@ public class Arrow : MonoBehaviour
     public float arrowSpeed;
     public float borderLength;
 
-    private Vector2 firstTransform;
+    [HideInInspector] public Vector2 firstTransform;
 
     private void Start() {
        firstTransform = transform.position;

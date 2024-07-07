@@ -34,17 +34,13 @@ public class PlayerMovement : MonoBehaviour
     private void Movement(Vector3 dir, float speed)
     {
         transform.position = transform.position + dir * speed * Time.deltaTime;
-        //transform.Translate(dir * speed * Time.deltaTime);
     }
 
     private void Rotation(Vector2 dir)
     {
         if (dir != Vector2.zero)
         {
-            
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            print(angle);
-            
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
         }
     }

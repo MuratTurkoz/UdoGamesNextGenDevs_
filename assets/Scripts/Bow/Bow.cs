@@ -49,6 +49,7 @@ public class Bow : MonoBehaviour
 
             var arrow = pool.obj; // Get an arrow from the object pool
             arrow.transform.position = this.transform.position;
+            arrow.GetComponent<Arrow>().firstTransform = this.transform.position;
             arrow.transform.rotation = rot;
         }
     }
