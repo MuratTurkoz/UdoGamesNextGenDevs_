@@ -10,23 +10,43 @@ public class PlayerMovement : MonoBehaviour
 
     private float horizontal;
     private float vertical;
+    private float horizontal2;
+    private float vertical2;
     private Vector3 lastPosition;
 
     void Update()
     {
+
+        horizontal2 = joystick.Horizontal;
+        vertical2 = joystick.Vertical;
+        
+        
+        Rotation(new Vector2(horizontal2,vertical2));
+    }
+    void FixedUpdate() {
+
         horizontal = joystick.Horizontal;
         vertical = joystick.Vertical;
+
         Movement(new Vector2(horizontal,vertical),playerSpeed);
     }
 
-    private void Movement(Vector2 dir, float speed)
+    private void Movement(Vector3 dir, float speed)
     {
-        transform.Translate(dir * speed * Time.deltaTime);
+        transform.position = transform.position + dir * speed * Time.deltaTime;
+        //transform.Translate(dir * speed * Time.deltaTime);
     }
 
     private void Rotation(Vector2 dir)
     {
-        // Player's rotation codes 
+        if (dir != Vector2.zero)
+        {
+            
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            print(angle);
+            
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        }
     }
 
     public bool IsPlayerMoving()
