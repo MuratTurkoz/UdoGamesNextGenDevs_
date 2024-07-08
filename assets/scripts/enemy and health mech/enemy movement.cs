@@ -7,6 +7,8 @@ public class Enemymovement : MonoBehaviour
     public Rigidbody2D theRigidbody;
     public float movespeed,damage;
     private Transform target;
+    private float damageInterval = 3.0f; // 3 saniyede bir hasar
+    private float damageTimer = 0f;//timer
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,28 @@ public class Enemymovement : MonoBehaviour
         {
             
             PlayerHealth.instance.TakeDamage(damage);
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            theRigidbody.velocity = Vector2.zero;
+            
+            damageTimer -= Time.deltaTime;
+            if (damageTimer <= 0f)
+            {
+                PlayerHealth.instance.TakeDamage(damage);
+                damageTimer = damageInterval; // Zamanlayıcıyı sıfırla
+            }
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            damageTimer = 0f; // Zamanlayıcıyı sıfırla
         }
     }
   
