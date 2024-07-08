@@ -13,22 +13,23 @@ public class PlayerMovement : MonoBehaviour
     private float horizontal2;
     private float vertical2;
     private Vector3 lastPosition;
+    public static bool IsTouched;
 
     void Update()
     {
+        if (joystick.Horizontal != 0 || joystick.Vertical != 0){
+            horizontal2 = joystick.Horizontal;
+            vertical2 = joystick.Vertical;
+            Rotation(new Vector2(horizontal2,vertical2));
+        }
 
-        horizontal2 = joystick.Horizontal;
-        vertical2 = joystick.Vertical;
-        
-        
-        Rotation(new Vector2(horizontal2,vertical2));
-    }
-    void FixedUpdate() {
-
-        horizontal = joystick.Horizontal;
-        vertical = joystick.Vertical;
-
-        Movement(new Vector2(horizontal,vertical),playerSpeed);
+        if(!IsTouched){
+            if (joystick.Horizontal != 0 || joystick.Vertical != 0){
+            horizontal = joystick.Horizontal;
+            vertical = joystick.Vertical;
+            Movement(new Vector2(horizontal,vertical),playerSpeed);
+            }
+        }
     }
 
     private void Movement(Vector3 dir, float speed)
