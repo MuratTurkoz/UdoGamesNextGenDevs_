@@ -4,30 +4,43 @@ using UnityEngine;
 
 public class Enemymovement : MonoBehaviour
 {
-    public Rigidbody2D theRigidbody;
-    public float movespeed,damage;
+    public float movespeed;
+    public float damage;
     private Transform target;
+    private float damageInterval = 3.0f; // 3 saniyede bir hasar
+    private float damageTimer = 0f; // Zamanlayıcı
+    public float stoppingDistance = 1.5f; // duracağı mesafe
 
-    // Start is called before the first frame update
     void Start()
     {
         target = FindObjectOfType<PlayerMovement>().transform;
-
         movespeed = Random.Range(0.7f, 1.4f);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        theRigidbody.velocity = (target.position - transform.position).normalized * movespeed;
+        float step = movespeed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    void OnCollisionStay2D(Collision2D collision)
     {
-        if(collision.transform.tag=="Player")
+        if (collision.transform.tag == "Player")
         {
-            
-            PlayerHealth.instance.TakeDamage(damage);
+            damageTimer -= Time.deltaTime;
+            if (damageTimer <= 0f)
+            {
+                PlayerHealth.instance.TakeDamage(damage);
+                damageTimer = damageInterval; // Zamanlayıcıyı sıfırla
+            }
         }
     }
-  
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            damageTimer = 0f; // Zamanlayıcıyı sıfırla
+        }
+    }
 }
