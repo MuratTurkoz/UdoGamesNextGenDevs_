@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class PlayerExp : MonoBehaviour
 {
-    private Action OnReachExp;
-    private Action OnGetExp;
+    public Action OnReachExp;
+    public Action OnGetExp;
     private int expAmaount;
     public int ExpAmaount { get { return expAmaount; } set { expAmaount = value; } }
     private int expCounter = 0;
     public List<int> ExpLimits;
+    public int PlayerLevel { get { return expCounter; } }
+    public float ExpPercent { get { return (float)ExpAmaount / GetExpLimitFromList(PlayerLevel); } }
     
     private void Start()
     {

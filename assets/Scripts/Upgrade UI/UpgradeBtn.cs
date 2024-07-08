@@ -5,6 +5,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+// EMİRCAN
+
 public class UpgradeBtn : MonoBehaviour
 {
     public static Action OnUpgradeSelected;
