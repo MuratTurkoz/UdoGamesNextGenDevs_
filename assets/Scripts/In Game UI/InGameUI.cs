@@ -4,6 +4,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+// EMİRCAN
+
 public class InGameUI : MonoBehaviour
 {
     [Header("Panels")]
@@ -17,7 +19,10 @@ public class InGameUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _lvlTMP;
     [SerializeField] private TextMeshProUGUI _scoreTMP;
 
-    private void Awake() {
+    private LevelManager _levelManager;
+
+    private void Awake()
+    {
         _inGamePanel.SetActive(true);
         _upgradePanel.SetActive(false);
         _pauseBtn.onClick.AddListener(OnPauseBtnClicked);
@@ -28,10 +33,38 @@ public class InGameUI : MonoBehaviour
 
         UpgradeBtn.OnUpgradeSelected += CloseUpgradePanel;
         // ON LEVEL UP SHOW UPGRADE PANEL
+
+        _levelManager = FindObjectOfType<LevelManager>();
+        _levelManager.OnGetExp += OnExpGained;
+        _levelManager.OnReachExp += OnLevelUp;
     }
 
-    private void OnDestroy() {
+    private void OnLevelUp()
+    {
+        _lvlTMP.SetText(_levelManager.PlayerLevel.ToString());
+        _expBarImage.fillAmount = 0;
+
+        ShowUpgradePanel();
+    }
+
+    private void ShowUpgradePanel()
+    {
+        _upgradePanel.SetActive(true);
+    }
+
+    private void OnExpGained()
+    {
+        _expBarImage.fillAmount = _levelManager.ExpPercent;
+    }
+
+    private void OnDestroy()
+    {
         UpgradeBtn.OnUpgradeSelected -= CloseUpgradePanel;
+        if (_levelManager)
+        {
+            _levelManager.OnGetExp -= OnExpGained;
+            _levelManager.OnReachExp -= OnLevelUp;
+        }
     }
 
     private void CloseUpgradePanel()
