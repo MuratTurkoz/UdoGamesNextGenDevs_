@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private float vertical2;
     private Vector3 lastPosition;
     public static bool IsTouched;
+    public Transform gfx;
 
     void Update()
     {
@@ -42,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         if (dir != Vector2.zero)
         {
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            gfx.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
         }
     }
 

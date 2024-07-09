@@ -19,7 +19,7 @@ public class InGameUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _lvlTMP;
     [SerializeField] private TextMeshProUGUI _scoreTMP;
 
-    private LevelManager _levelManager;
+    private PlayerExp _levelManager;
 
     private void Awake()
     {
@@ -34,7 +34,7 @@ public class InGameUI : MonoBehaviour
         UpgradeBtn.OnUpgradeSelected += CloseUpgradePanel;
         // ON LEVEL UP SHOW UPGRADE PANEL
 
-        _levelManager = FindObjectOfType<LevelManager>();
+        _levelManager = FindObjectOfType<PlayerExp>();
         _levelManager.OnGetExp += OnExpGained;
         _levelManager.OnReachExp += OnLevelUp;
     }
