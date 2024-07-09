@@ -14,6 +14,7 @@ public class InGameUI : MonoBehaviour
     [SerializeField] private GameObject _inGamePanel;
     [SerializeField] private GameObject _upgradePanel;
     [SerializeField] private GameObject _pausePanel;
+    [SerializeField] private GameObject _endGamePanel;
 
     [Header("In Game Panel")]
     [SerializeField] private Button _pauseBtn;
@@ -54,6 +55,11 @@ public class InGameUI : MonoBehaviour
         _expBarImage.fillAmount = 0;
 
         if (level != 0) ShowUpgradePanel();
+    }
+
+    public void ShowEndGame()
+    {
+        _endGamePanel.SetActive(true);
     }
 
     private void ShowUpgradePanel()
