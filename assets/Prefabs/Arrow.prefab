@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3b8162e443e62446a168e781bfca1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmaunt: 1
+  damageAmaunt: 5
   arrowSpeed: 5
   borderLength: 7
   firstTransform: {x: 0, y: 0}

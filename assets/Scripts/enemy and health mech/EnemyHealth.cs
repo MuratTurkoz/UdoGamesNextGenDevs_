@@ -32,6 +32,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         if (_health <= 0) return;
 
         _health -= damage;
+        DamageIndicatorManager.Instance.ShowDamage(transform.position, damage, DamageIndicatorType.EnemyIndicator);
         if (_health <= 0)
         {
             DestroyEnemy();
