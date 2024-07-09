@@ -16,8 +16,16 @@ public class UpgradeBtn : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _upgradeLvlTMP;
     [SerializeField] private Image _upgradeIcon;
 
+    [SerializeField] GameObject upgradeManager;
+    [SerializeField] GameObject player;
+    [SerializeField] Float damageAmount;
+    [SerializeField] Float playerCurrentHealth;
+    private float btnHealthChange;
+    private float btnAttackChange;
+    private float btnSpeedChange;
+
     private void Awake() {
-        _upgradeButton.GetComponent<Button>();
+        _upgradeButton = GetComponent<Button>();
         _upgradeButton.onClick.AddListener(OnUpgradeSelect);
     }
 
@@ -25,13 +33,24 @@ public class UpgradeBtn : MonoBehaviour
     {
         OnUpgradeSelected?.Invoke();
         // APPLY UPGRADE
+        player.GetComponent<PlayerMovement>().playerSpeed += btnSpeedChange;
+        damageAmount.Value += btnAttackChange;
+        playerCurrentHealth.Value += btnHealthChange; 
+        
+        
+
+
     }
 
-    public void SetUpgrade(string name, string desc, int lvl, Sprite icon)
+    public void SetUpgrade(string name, string desc, int lvl, Sprite icon, float healthChange, float attackChange, float speedChange)
     {
         _upgradeNameTMP.text = name;
         _upgradeDescriptionTMP.text = desc;
         _upgradeLvlTMP.text = "lv." + lvl;
         _upgradeIcon.sprite = icon;
+
+        btnHealthChange = healthChange;
+        btnAttackChange = attackChange;
+        btnSpeedChange = speedChange;
     }
 }

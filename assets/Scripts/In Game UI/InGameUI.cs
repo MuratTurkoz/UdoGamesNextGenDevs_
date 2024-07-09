@@ -13,6 +13,7 @@ public class InGameUI : MonoBehaviour
     [Header("Panels")]
     [SerializeField] private GameObject _inGamePanel;
     [SerializeField] private GameObject _upgradePanel;
+    [SerializeField] private GameObject upgradeManager;
     [SerializeField] private GameObject _pausePanel;
     [SerializeField] private GameObject _endGamePanel;
 
@@ -64,6 +65,7 @@ public class InGameUI : MonoBehaviour
 
     private void ShowUpgradePanel()
     {
+        upgradeManager.GetComponent<UpgradeManager>().PrepareUpgradePanel();
         _upgradePanel.SetActive(true);
         Time.timeScale = 0;
     }

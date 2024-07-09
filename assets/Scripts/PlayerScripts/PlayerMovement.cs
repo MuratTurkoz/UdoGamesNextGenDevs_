@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Joystick joystick;
-    [SerializeField] private float playerSpeed;
+    [SerializeField] public float playerSpeed;
     public float PlayerSpeed{get{ return PlayerSpeed;} set{playerSpeed = value;}}
 
     private float horizontal;

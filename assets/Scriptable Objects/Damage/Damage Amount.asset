@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b11441a4982b5b47a5ff0789772f6fd, type: 3}
-  m_Name: Sharp Candy
+  m_Script: {fileID: 11500000, guid: 67e840ee0eb1d984bb08cd362976d6b0, type: 3}
+  m_Name: Damage Amount
   m_EditorClassIdentifier: 
-  upgradeName: Sharp Candy
-  description: +1 DMG
-  artwork: {fileID: 21300000, guid: 59c8cd2a91ad7f846b9efd79b945c356, type: 3}
-  healthChange: 0
-  attackChange: 1
+  _value: 6

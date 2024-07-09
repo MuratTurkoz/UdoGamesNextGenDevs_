@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    public float damageAmaunt;
+    public Float damageAmaunt;
     public float arrowSpeed;
     public float borderLength;
 
@@ -30,7 +30,7 @@ public class Arrow : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
       if (other.TryGetComponent<IDamageable>(out var damageable))
       {
-         damageable.ApplyDamage(damageAmaunt);
+         damageable.ApplyDamage(damageAmaunt.Value);
          gameObject.SetActive(false);
       }
     }
