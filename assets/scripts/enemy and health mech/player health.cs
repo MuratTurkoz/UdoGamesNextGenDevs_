@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public static PlayerHealth instance;
 
-    public float currentHealth, maxHealth;
+    [SerializeField] private Float currentHealth, maxHealth;
 
     private void Awake()
     {
@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
        
-        currentHealth = maxHealth;
+        currentHealth.Value = maxHealth;
     }
 
     // Update is called once per frame
@@ -27,14 +27,18 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(10f);
         }
     }
-    public void TakeDamage(float damage )
+    public void TakeDamage(float damage)
     {
         Debug.Log("0");
-        currentHealth -= damage;
+        currentHealth.Value -= damage;
         if (currentHealth <= 0 )
         {
-            gameObject.SetActive(false);
-
+            KillPlayer();
         }
+    }
+
+    private void KillPlayer()
+    {
+        gameObject.SetActive(false);
     }
 }

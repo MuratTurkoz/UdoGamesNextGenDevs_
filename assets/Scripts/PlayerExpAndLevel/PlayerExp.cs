@@ -1,19 +1,27 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using IgnuxNex.SpaceConqueror;
 using UnityEngine;
 
 public class PlayerExp : MonoBehaviour
 {
     public Action OnReachExp;
     public Action OnGetExp;
-    private int expAmaount;
-    public int ExpAmaount { get { return expAmaount; } set { expAmaount = value; } }
-    private int expCounter = 0;
+    [SerializeField] private Int expAmaount;
+    public int ExpAmaount { get { return expAmaount; } set { expAmaount.Value = value; } }
+    [SerializeField] private Int expCounter;
+    [SerializeField] private Int targetExp;
     public List<int> ExpLimits;
     public int PlayerLevel { get { return expCounter; } }
     public float ExpPercent { get { return (float)ExpAmaount / GetExpLimitFromList(PlayerLevel); } }
     
+    private void Awake() {
+        expAmaount.Value = 0;
+        expCounter.Value = 0;
+        targetExp.Value = GetExpLimitFromList(expCounter);
+    }
+
     private void Start()
     {
         OnReachExp += HandleOnReachExp;
@@ -22,6 +30,7 @@ public class PlayerExp : MonoBehaviour
 
     public void GetExp(int exp)
     {
+        LogManager.Instance.ShowMessage("+" + exp + " xp!", Color.green);
         ExpAmaount += exp;
         OnGetExp?.Invoke();
     }
@@ -36,7 +45,8 @@ public class PlayerExp : MonoBehaviour
         if (CheckExp(GetExpLimitFromList(expCounter)))
         {
             OnReachExp?.Invoke();
-            expCounter++;
+            expCounter.Value++;
+            targetExp.Value = GetExpLimitFromList(expCounter);
         }
 
     }
