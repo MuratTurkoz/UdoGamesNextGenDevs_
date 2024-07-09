@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5875438024377464899}
   - component: {fileID: 1443035012902889186}
+  - component: {fileID: 5721791278672843412}
   m_Layer: 0
   m_Name: bow
   m_TagString: Untagged
@@ -84,6 +85,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5721791278672843412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053162601337562895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2419d559b03be714b80f9d48db597a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1633430057762562476}
+  shootFrequency: 0.3
+  pool: {fileID: 0}
+  arrowCount: 3
+  spreadAngle: 10
 --- !u!1 &3090455652697014930
 GameObject:
   m_ObjectHideFlags: 0
