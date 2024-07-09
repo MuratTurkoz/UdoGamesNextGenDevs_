@@ -48,6 +48,11 @@ public class EnemySpawner : MonoBehaviour
         StartSpawning();
     }
 
+    public void StopSpawning()
+    {
+        _isSpawning = false;
+    }
+
     private void StartSpawning()
     {
         _isSpawning = true;
