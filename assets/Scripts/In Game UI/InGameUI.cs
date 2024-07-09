@@ -53,7 +53,7 @@ public class InGameUI : MonoBehaviour
         _lvlTMP.SetText(level.ToString());
         _expBarImage.fillAmount = 0;
 
-        ShowUpgradePanel();
+        if (level != 0) ShowUpgradePanel();
     }
 
     private void ShowUpgradePanel()
