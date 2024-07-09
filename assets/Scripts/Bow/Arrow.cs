@@ -27,6 +27,14 @@ public class Arrow : MonoBehaviour
          
     }
 
+    private void OnTriggerEnter2D(Collider2D other) {
+      if (other.TryGetComponent<IDamageable>(out var damageable))
+      {
+         damageable.ApplyDamage(damageAmaunt);
+         gameObject.SetActive(false);
+      }
+    }
+
     private void Move(Vector2 dir)
     {
       transform.Translate(dir * arrowSpeed * Time.deltaTime);
