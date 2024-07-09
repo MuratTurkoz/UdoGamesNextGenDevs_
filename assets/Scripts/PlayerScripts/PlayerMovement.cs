@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private float vertical2;
     private Vector3 lastPosition;
     public static bool IsTouched;
-    public Transform gfx;
+    [SerializeField] private Transform weaponTransform;
+    [SerializeField] private SpriteRenderer characterSprite;
 
     void Update()
     {
@@ -35,6 +36,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement(Vector3 dir, float speed)
     {
+        if (dir.x > 0) characterSprite.flipX = false;
+        else if (dir.x < 0) characterSprite.flipX = true;
+        
         transform.position = transform.position + dir * speed * Time.deltaTime;
     }
 
@@ -43,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
         if (dir != Vector2.zero)
         {
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            gfx.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            weaponTransform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
         }
     }
 

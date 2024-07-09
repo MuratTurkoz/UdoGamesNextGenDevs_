@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63cf78031d283f147807086b59178faf, type: 3}
-  m_Name: Simple Enemy Loot
+  m_Script: {fileID: 11500000, guid: 67e840ee0eb1d984bb08cd362976d6b0, type: 3}
+  m_Name: Player Current Health
   m_EditorClassIdentifier: 
-  LootDataList:
-  - LootObjType: {fileID: 11400000, guid: a53e08313882dff40960ee6f1c049545, type: 2}
-    DropChance: 0.8
+  _value: 0

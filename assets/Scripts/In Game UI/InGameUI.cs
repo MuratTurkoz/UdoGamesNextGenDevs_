@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class InGameUI : MonoBehaviour
 {
+    [SerializeField] private Int _currentExp, _targetExp, _playerLevel;
+
     [Header("Panels")]
     [SerializeField] private GameObject _inGamePanel;
     [SerializeField] private GameObject _upgradePanel;
@@ -19,7 +21,8 @@ public class InGameUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _lvlTMP;
     [SerializeField] private TextMeshProUGUI _scoreTMP;
 
-    private PlayerExp _levelManager;
+    [Header("Pause Panel")]
+    [SerializeField] private Button _continueBtn;
 
     private void Awake()
     {
@@ -34,14 +37,20 @@ public class InGameUI : MonoBehaviour
         UpgradeBtn.OnUpgradeSelected += CloseUpgradePanel;
         // ON LEVEL UP SHOW UPGRADE PANEL
 
-        _levelManager = FindObjectOfType<PlayerExp>();
-        _levelManager.OnGetExp += OnExpGained;
-        _levelManager.OnReachExp += OnLevelUp;
+        _currentExp.OnValueChanged += OnExpGained;
+        _playerLevel.OnValueChanged += OnLevelUp;
+
+        _continueBtn.onClick.AddListener(OnContinueBtnPressed);
     }
 
-    private void OnLevelUp()
+    private void OnContinueBtnPressed()
     {
-        _lvlTMP.SetText(_levelManager.PlayerLevel.ToString());
+        ClosePausePanel();
+    }
+
+    private void OnLevelUp(int level)
+    {
+        _lvlTMP.SetText(level.ToString());
         _expBarImage.fillAmount = 0;
 
         ShowUpgradePanel();
@@ -50,31 +59,36 @@ public class InGameUI : MonoBehaviour
     private void ShowUpgradePanel()
     {
         _upgradePanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
-    private void OnExpGained()
+    private void OnExpGained(int exp)
     {
-        _expBarImage.fillAmount = _levelManager.ExpPercent;
+        _expBarImage.fillAmount = (float)exp / _targetExp;
     }
 
     private void OnDestroy()
     {
         UpgradeBtn.OnUpgradeSelected -= CloseUpgradePanel;
-        if (_levelManager)
-        {
-            _levelManager.OnGetExp -= OnExpGained;
-            _levelManager.OnReachExp -= OnLevelUp;
-        }
+        _currentExp.OnValueChanged -= OnExpGained;
+        _playerLevel.OnValueChanged -= OnLevelUp;
     }
 
     private void CloseUpgradePanel()
     {
         _upgradePanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     private void OnPauseBtnClicked()
     {
         _pausePanel.SetActive(true);
         Time.timeScale = 0;
+    }
+
+    private void ClosePausePanel()
+    {
+        _pausePanel.SetActive(false);
+        Time.timeScale = 1;
     }
 }

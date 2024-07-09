@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 469169598658282482}
   - component: {fileID: 627182234289115725}
   - component: {fileID: 6680465812295102261}
+  - component: {fileID: -8170347235813182353}
   m_Layer: 0
   m_Name: enemy (5)
   m_TagString: Untagged
@@ -164,3 +165,17 @@ MonoBehaviour:
   movespeed: 1.5
   damage: 3
   stoppingDistance: 1.5
+--- !u!114 &-8170347235813182353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524596184715842204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7549c261315d3849b51137adab36cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lootDatas: {fileID: 11400000, guid: 9992ccd0a33073149b5abcc89c59e650, type: 2}
+  _maxHealth: 50

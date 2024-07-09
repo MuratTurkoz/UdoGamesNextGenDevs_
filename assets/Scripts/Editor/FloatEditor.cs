@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(Int))]
-public class IntEditor : Editor
+[CustomEditor(typeof(Float))]
+public class FloatEditor : Editor
 {
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
 
-        Int intVariable = (Int)target;
+        Float intVariable = (Float)target;
 
         if (GUILayout.Button("Update UI"))
         {
@@ -18,4 +18,3 @@ public class IntEditor : Editor
         }
     }
 }
-
