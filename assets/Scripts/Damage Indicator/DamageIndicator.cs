@@ -35,12 +35,12 @@ public class DamageIndicator : MonoBehaviour
         gameObject.SetActive(true);
 
         // Create a scaling and moving animation
-        _tween = transform.DOScale(Vector3.one * 1.5f, 0.5f).SetLoops(2, LoopType.Yoyo).OnComplete(() => StopDisplay());
+        _tween = transform.DOScale(Vector3.one * 1.5f, 0.4f).SetLoops(2, LoopType.Yoyo).OnComplete(() => StopDisplay());
 
         // Randomize the movement direction slightly to avoid overlapping indicators
-        float randomXOffset = Random.Range(-0.5f, 0.5f);
-        float randomYOffset = Random.Range(0.5f, 1.5f);
+        float randomXOffset = Random.Range(-0.7f, 0.7f);
+        float randomYOffset = Random.Range(0.5f, 2f);
 
-        transform.DOMove(new Vector3(transform.position.x + randomXOffset, transform.position.y + randomYOffset, transform.position.z), 1f);
+        transform.DOMove(new Vector3(transform.position.x + randomXOffset, transform.position.y + randomYOffset, transform.position.z), 0.8f);
     }
 }
