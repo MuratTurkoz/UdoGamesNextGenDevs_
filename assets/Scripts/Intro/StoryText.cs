@@ -10,7 +10,7 @@ public class StoryText : MonoBehaviour
     void Start()
     {
        storyTextTransform = GetComponent<RectTransform>();
-       StartCoroutine(WaitChangeScene());  
+       /* StartCoroutine(WaitChangeScene());   */
     }
 
     
@@ -18,8 +18,8 @@ public class StoryText : MonoBehaviour
     {
         storyTextTransform.localPosition += new Vector3 (0,speed/100,0);
     }
-    IEnumerator WaitChangeScene(){
+    /* IEnumerator WaitChangeScene(){
         yield return new WaitForSeconds(25);
         SceneManager.LoadScene(1);
-    }
+    } */
 }
