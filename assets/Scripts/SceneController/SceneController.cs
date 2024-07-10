@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
+using DG.Tweening;
 using UnityEngine;
 
 public class SceneController : MonoBehaviour
@@ -10,11 +12,32 @@ public class SceneController : MonoBehaviour
     [SerializeField] private GameObject _introScene;
     [SerializeField] private GameObject _entranceScene;
 
+    [SerializeField] private GameObject _sceneFadeCanvas;
+    [SerializeField] private CanvasGroup _fadeCanvas;
+
     private static int _activeScene = 0;
+
+    private bool _isSceneLoading;
 
     private void Awake() {
         Instance = this;
         HandleScenes();
+    }
+
+    private void FadeAnimation()
+    {
+        _fadeCanvas.alpha = 0;
+        _fadeCanvas.gameObject.SetActive(true);
+        _sceneFadeCanvas.gameObject.SetActive(true);
+        Sequence seq = DOTween.Sequence();
+        seq.Append(_fadeCanvas.DOFade(1f, 1f).OnComplete(HandleScenes));
+        seq.Append(_fadeCanvas.DOFade(0f, 1.5f));
+        seq.OnComplete(CloseCanvas);
+    }
+
+    private void CloseCanvas()
+    {
+        _sceneFadeCanvas.gameObject.SetActive(false);
     }
 
     public enum SceneName
@@ -27,7 +50,10 @@ public class SceneController : MonoBehaviour
     public void OpenScene(SceneName sceneName)
     {
         _activeScene = (int)sceneName;
-        HandleScenes();
+        if (_isSceneLoading) return;
+        _isSceneLoading = true;
+        FadeAnimation();
+        Invoke(nameof(StopSceneLoading), 2.5f);
     }
 
     private void HandleScenes()
@@ -50,5 +76,10 @@ public class SceneController : MonoBehaviour
                 _entranceScene.SetActive(false);
                 break;
         }
+    }
+
+    private void StopSceneLoading()
+    {
+        _isSceneLoading = false;
     }
 }

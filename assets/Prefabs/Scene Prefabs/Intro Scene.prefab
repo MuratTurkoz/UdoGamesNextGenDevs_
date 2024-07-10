@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 758ab91db1502294fb95e6d7e728e5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _automaticEndingTime: 35
+  _automaticEndingTime: 30
   _showSkipBtnTime: 5
   _skipIntroPanel: {fileID: 1530601697464196921}
   _skipBtn: {fileID: 661339160522979602}
@@ -621,7 +621,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e44c4fb13e541544eb72f8a3fc85245f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b877228c659690241be2985e99e8cf76, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1223,4 +1223,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5fcee5630f009e44b071d6fda38ab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 20
