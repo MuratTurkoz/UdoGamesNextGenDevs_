@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,12 +9,17 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Float _playerHealth;
 
-    private int _playerScore;
-    public int PlayerScore => _playerScore;
+    [SerializeField] private Int _playerLevel;
+    [SerializeField] private Int _playerScore;
+    private float _timer;
 
     private void Awake() {
         Instance = this;
         _playerHealth.OnValueChanged += OnPlayerHealthChanged;
+    }
+
+    private void Start() {
+        _playerScore.Value = 0;
     }
 
     private void OnDestroy() {
@@ -21,6 +27,15 @@ public class GameManager : MonoBehaviour
     }
 
     private bool _isGameEnd;
+
+    private void Update() {
+        _timer += Time.deltaTime;
+        if (_timer >= 1)
+        {
+            _timer = 0;
+            _playerScore.Value += _playerLevel;
+        }
+    }
 
     private void OnPlayerHealthChanged(float value)
     {
@@ -37,6 +52,11 @@ public class GameManager : MonoBehaviour
     {
         FindObjectOfType<EnemySpawner>().StopSpawning();
         FindObjectOfType<InGameUI>().ShowEndGame();
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     

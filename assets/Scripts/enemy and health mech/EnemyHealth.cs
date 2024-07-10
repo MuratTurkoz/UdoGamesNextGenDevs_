@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour, IDamageable
 {
+    public static Action OnEnemyDie;
     [SerializeField] private LootDataSO _lootDatas;
     [SerializeField] private float _maxHealth;
     private float _health;
@@ -17,14 +19,15 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     {
         foreach (var loot in _lootDatas.LootDataList)
         {
-            float rand = Random.Range(0, 1f);
+            float rand = UnityEngine.Random.Range(0, 1f);
             if (rand <= loot.DropChance)
             {
                 var lootObj = PoolManager.Instance.Get(loot.LootObjType);
-                lootObj.transform.position = transform.position + new Vector3(Random.Range(-0.2f, 0.2f), Random.Range(-0.2f, 0.2f), 0);
-                gameObject.SetActive(false);
+                lootObj.transform.position = transform.position + new Vector3(UnityEngine.Random.Range(-0.2f, 0.2f), UnityEngine.Random.Range(-0.2f, 0.2f), 0);
             }
         }
+        gameObject.SetActive(false);
+        OnEnemyDie?.Invoke();
     }
 
     public void ApplyDamage(float damage)

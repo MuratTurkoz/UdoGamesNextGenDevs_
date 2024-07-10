@@ -35,12 +35,21 @@ public class EnemySpawner : MonoBehaviour
         _playerExp = FindObjectOfType<PlayerExp>();
         _playerExp.OnReachExp += UpdateSpawnPhase;
 
+        EnemyHealth.OnEnemyDie += ReduceAliveEnemyCount;
+
         // ASSIGN ON GAME START
+    }
+
+    private void ReduceAliveEnemyCount()
+    {
+        _aliveEnemyCounter--;
     }
 
     private void OnDestroy()
     {
         if (_playerExp) _playerExp.OnReachExp -= UpdateSpawnPhase;
+
+        EnemyHealth.OnEnemyDie -= ReduceAliveEnemyCount;
     }
 
     private void Start()

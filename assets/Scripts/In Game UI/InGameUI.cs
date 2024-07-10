@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class InGameUI : MonoBehaviour
 {
-    [SerializeField] private Int _currentExp, _targetExp, _playerLevel;
+    [SerializeField] private Int _currentExp, _targetExp, _playerLevel, _playerScore;
 
     [Header("Panels")]
     [SerializeField] private GameObject _inGamePanel;
@@ -26,6 +26,9 @@ public class InGameUI : MonoBehaviour
     [Header("Pause Panel")]
     [SerializeField] private Button _continueBtn;
 
+    [Header("Game Over Panel")]
+    [SerializeField] private Button _restartBtn;
+
     private void Awake()
     {
         _inGamePanel.SetActive(true);
@@ -33,7 +36,7 @@ public class InGameUI : MonoBehaviour
         _pauseBtn.onClick.AddListener(OnPauseBtnClicked);
 
         _expBarImage.fillAmount = 0;
-        _lvlTMP.SetText("0");
+        _lvlTMP.SetText("1");
         _scoreTMP.SetText("0");
 
         UpgradeBtn.OnUpgradeSelected += CloseUpgradePanel;
@@ -43,6 +46,20 @@ public class InGameUI : MonoBehaviour
         _playerLevel.OnValueChanged += OnLevelUp;
 
         _continueBtn.onClick.AddListener(OnContinueBtnPressed);
+
+        _restartBtn.onClick.AddListener(OnRestartBtnPressed);
+
+        _playerScore.OnValueChanged += OnScoreUpdated;
+    }
+    
+    private void OnScoreUpdated(int score)
+    {
+        _scoreTMP.SetText(score.ToString());
+    }
+
+    private void OnRestartBtnPressed()
+    {
+        GameManager.Instance.RestartGame();
     }
 
     private void OnContinueBtnPressed()
@@ -52,7 +69,7 @@ public class InGameUI : MonoBehaviour
 
     private void OnLevelUp(int level)
     {
-        _lvlTMP.SetText(level.ToString());
+        _lvlTMP.SetText((level + 1).ToString());
         _expBarImage.fillAmount = 0;
 
         if (level != 0) ShowUpgradePanel();
@@ -80,6 +97,7 @@ public class InGameUI : MonoBehaviour
         UpgradeBtn.OnUpgradeSelected -= CloseUpgradePanel;
         _currentExp.OnValueChanged -= OnExpGained;
         _playerLevel.OnValueChanged -= OnLevelUp;
+        _playerScore.OnValueChanged -= OnScoreUpdated;
     }
 
     private void CloseUpgradePanel()

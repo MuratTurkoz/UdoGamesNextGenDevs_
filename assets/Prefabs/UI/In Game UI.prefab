@@ -659,7 +659,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!114 &2090641774743595945
 MonoBehaviour:
@@ -716,8 +716,10 @@ MonoBehaviour:
   _currentExp: {fileID: 11400000, guid: 49538d13b1a5ab040aef2c46ae2002d0, type: 2}
   _targetExp: {fileID: 11400000, guid: d54271da08241d14099d4fb477225d58, type: 2}
   _playerLevel: {fileID: 11400000, guid: 501cdd9ad10eefb4e9e79bc025021610, type: 2}
+  _playerScore: {fileID: 11400000, guid: aa22cdc6d678c394e9bd8b4045736050, type: 2}
   _inGamePanel: {fileID: 2989957203771089625}
   _upgradePanel: {fileID: 1079224692683398376}
+  upgradeManager: {fileID: 0}
   _pausePanel: {fileID: 394986176922823661}
   _endGamePanel: {fileID: 4458964426483817829}
   _pauseBtn: {fileID: 695362647353912398}
@@ -725,6 +727,7 @@ MonoBehaviour:
   _lvlTMP: {fileID: 4190340487682887704}
   _scoreTMP: {fileID: 6470819193725890196}
   _continueBtn: {fileID: 4054882620680541358}
+  _restartBtn: {fileID: 4005362459085319111}
 --- !u!1 &4868452805393866260
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,6 +3021,24 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 984836257558696685}
     m_Modifications:
+    - target: {fileID: 1484773285340958792, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 3469896616438647251, guid: 806387a9bb6f2ab4e9f640d28b7d75d0,
+        type: 3}
+    - target: {fileID: 1484773285340958792, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: damageAmount
+      value: 
+      objectReference: {fileID: 11400000, guid: c6e5a4c549b66b74891ad49a86fd93f7,
+        type: 2}
+    - target: {fileID: 1484773285340958792, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: playerCurrentHealth
+      value: 
+      objectReference: {fileID: 11400000, guid: 143c47276f662854e905e0810d991c06,
+        type: 2}
     - target: {fileID: 2211054318488361219, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3158,6 +3179,24 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -300
       objectReference: {fileID: 0}
+    - target: {fileID: 4188434493807915544, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 3469896616438647251, guid: 806387a9bb6f2ab4e9f640d28b7d75d0,
+        type: 3}
+    - target: {fileID: 4188434493807915544, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: damageAmount
+      value: 
+      objectReference: {fileID: 11400000, guid: c6e5a4c549b66b74891ad49a86fd93f7,
+        type: 2}
+    - target: {fileID: 4188434493807915544, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: playerCurrentHealth
+      value: 
+      objectReference: {fileID: 11400000, guid: 143c47276f662854e905e0810d991c06,
+        type: 2}
     - target: {fileID: 5055623774316579269, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3188,6 +3227,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7108474349934781150, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: damageAmount
+      value: 
+      objectReference: {fileID: 11400000, guid: c6e5a4c549b66b74891ad49a86fd93f7,
+        type: 2}
+    - target: {fileID: 7108474349934781150, guid: cf8b8cb98836c114cae2b8ebe21d9fbf,
+        type: 3}
+      propertyPath: playerCurrentHealth
+      value: 
+      objectReference: {fileID: 11400000, guid: 143c47276f662854e905e0810d991c06,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
