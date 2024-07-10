@@ -28,6 +28,8 @@ public class InGameUI : MonoBehaviour
 
     [Header("Game Over Panel")]
     [SerializeField] private Button _restartBtn;
+    [SerializeField] private TextMeshProUGUI _endScoreTMP;
+    [SerializeField] private TextMeshProUGUI _highScoreTMP;
 
     private void Awake()
     {
@@ -77,6 +79,11 @@ public class InGameUI : MonoBehaviour
 
     public void ShowEndGame()
     {
+        _endScoreTMP.SetText("Score: " + _playerScore.Value);
+        int highScore = Mathf.Max(_playerScore.Value, PlayerPrefs.GetInt("highScore", 0));
+        _highScoreTMP.SetText("High Score: " + highScore);
+        PlayerPrefs.SetInt("highScore", highScore);
+
         _endGamePanel.SetActive(true);
     }
 
