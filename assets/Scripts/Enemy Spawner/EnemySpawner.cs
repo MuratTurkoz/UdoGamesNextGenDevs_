@@ -108,7 +108,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemy(ObjType enemyType, int spawnCount)
     {
-        Vector3 spawnPos = GetRandomSpawnPositionOutsideCamera();
+        Vector3 spawnPos = GetValidSpawnPosition();
         for (int i = 0; i < spawnCount; i++)
         {
             _aliveEnemyCounter++;
@@ -116,7 +116,9 @@ public class EnemySpawner : MonoBehaviour
             enemy.transform.position = spawnPos;
 
             // Calculate next spawn position near the first one
-            spawnPos += new Vector3(1, 1, 0);
+            spawnPos += new Vector3(Random.Range(1, 2), Random.Range(1, 2), 0);
+
+            spawnPos = GetValidSpawnPosition(spawnPos);
 
             if (_aliveEnemyCounter >= _spawnPhase.MaxAliveEnemyCount) return;
         }
@@ -149,5 +151,38 @@ public class EnemySpawner : MonoBehaviour
 
         return mainCamera.transform.position + spawnPos;
     }
+
+    private Vector3 GetValidSpawnPosition(Vector3 initialPos = default)
+    {
+        Vector3 spawnPos = initialPos == default ? GetRandomSpawnPositionOutsideCamera() : initialPos;
+        int maxAttempts = 10;
+        int attempts = 0;
+
+        while (attempts < maxAttempts && IsPositionObstructed(spawnPos))
+        {
+            spawnPos = GetRandomSpawnPositionOutsideCamera();
+            attempts++;
+        }
+
+        return spawnPos;
+    }
+
+    private bool IsPositionObstructed(Vector3 position)
+    {
+        float checkRadius = 0.5f; // Adjust the radius as needed
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, checkRadius);
+        return colliders.Length > 0;
+
+        /* foreach (var collider in colliders)
+        {
+            if (collider.gameObject.CompareTag("Obstacle")) // Replace with your obstacle tag
+            {
+                return true;
+            }
+        }
+        return false; */
+        // HANDLE LOGIC FOR SPAWNABLE POSITION
+    }
+
 
 }
