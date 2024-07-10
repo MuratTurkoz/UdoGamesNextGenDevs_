@@ -20,9 +20,11 @@ public abstract class LootBase : MonoBehaviour
             isCollected = true;
 
             Sequence seq = DOTween.Sequence();
+            Vector3 distance = transform.position - other.transform.position;
+            distance.z = 0;
+            Vector3 distantPos = transform.position + distance.normalized * 6f;
             transform.SetParent(other.transform);
-            Vector3 distantPos = transform.position + (transform.position - other.transform.position).normalized * 6f;
-            seq.Append(transform.DOMove(distantPos, 0.5f));
+            seq.Append(transform.DOMove(distantPos, 0.3f));
             seq.Append(transform.DOLocalMove(Vector3.zero, 0.5f).SetEase(Ease.Flash));
             seq.OnComplete(() => Collect(other.gameObject));
         }
