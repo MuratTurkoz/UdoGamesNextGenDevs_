@@ -24,10 +24,10 @@ public class Bow : MonoBehaviour
         {
 
             // Wait until player moves
-            yield return new WaitUntil(predicate: () =>
+           /*yield return new WaitUntil(predicate: () =>
             {
-                return playerMovement.IsPlayerMoving();
-            });
+                //return playerMovement.IsPlayerMoving();
+            });*/
 
             yield return new WaitForSeconds(shootFrequency);
 
