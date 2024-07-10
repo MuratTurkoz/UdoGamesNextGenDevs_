@@ -51,7 +51,7 @@ public class InGameUI : MonoBehaviour
 
         _playerScore.OnValueChanged += OnScoreUpdated;
     }
-    
+    // comment line
     private void OnScoreUpdated(int score)
     {
         _scoreTMP.SetText(score.ToString());
