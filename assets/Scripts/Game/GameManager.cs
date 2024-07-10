@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         if (_timer >= 1)
         {
             _timer = 0;
-            _playerScore.Value += _playerLevel;
+            _playerScore.Value += (_playerLevel + 1);
         }
     }
 
