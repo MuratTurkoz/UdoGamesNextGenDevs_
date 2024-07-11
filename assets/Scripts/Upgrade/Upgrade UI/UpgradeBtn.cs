@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -31,6 +32,8 @@ public class UpgradeBtn : MonoBehaviour
     private bool btnEyesBehindMyBack;
     private bool btnConcentrateFire;
     private bool btnTurningSword;
+    private int btnID;
+    private Upgrade btnUpgradedVersion;
     
 
     private void Awake() {
@@ -47,32 +50,48 @@ public class UpgradeBtn : MonoBehaviour
         playerCurrentHealth.Value += btnHealthChange; 
         arrowSpeed.Value += arrowSpeed.Value * btnArrowSpeedChange;
 
+
+
         if(btnEyesBehindMyBack){
             extraBow.SetActive(true);
-            //extraBow.transform.Rotate(0,originalBow.transform.rotation.y + 150,0);    
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
         }
         if(btnConcentrateFire){
             originalBow.GetComponent<Bow>().arrowCount = 3;
             extraBow.GetComponent<Bow>().arrowCount = 3;
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
+            
+            
+            
         }
         if(btnTurningSword){
             turningSword.SetActive(true);
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
+            
+            
+        }
+        
+        if(!(btnUpgradedVersion == null && btnConcentrateFire && btnEyesBehindMyBack && btnTurningSword)){
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.Add(btnUpgradedVersion);
         }
 
-        
+        upgradeManager.GetComponent<UpgradeManager>().IDEqualsIndex();
+
 
         
 
 
     }
 
-    public void SetUpgrade(string name, string desc, int lvl, Sprite icon, float healthChange, float attackChange, float speedChange, float arrowSpeedChange, bool eyesBehindMyBack, bool concentrateFire, bool turningSword)
+    public void SetUpgrade(string name, string desc, int lvl, Sprite icon,int id, float healthChange, float attackChange, float speedChange, float arrowSpeedChange, bool eyesBehindMyBack, bool concentrateFire, bool turningSword, Upgrade upgradedVersion)
     {
         _upgradeNameTMP.text = name;
         _upgradeDescriptionTMP.text = desc;
         _upgradeLvlTMP.text = "lv." + lvl;
         _upgradeIcon.sprite = icon;
 
+        btnID = id;
         btnHealthChange = healthChange;
         btnAttackChange = attackChange;
         btnSpeedChange = speedChange;
@@ -80,5 +99,6 @@ public class UpgradeBtn : MonoBehaviour
         btnEyesBehindMyBack = eyesBehindMyBack;
         btnConcentrateFire = concentrateFire;
         btnTurningSword = turningSword;
+        btnUpgradedVersion = upgradedVersion;
     }
 }

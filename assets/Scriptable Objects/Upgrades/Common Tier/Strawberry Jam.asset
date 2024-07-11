@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: Strawberry Jam
   m_EditorClassIdentifier: 
   upgradeName: Strawberry Jam
+  id: 6
   description: +2.5 HP
   level: 1
   artwork: {fileID: 21300000, guid: da7129ed6a246f048a49d8d97de2d2d4, type: 3}
   healthChange: 2.5
   attackChange: 0
   speedChange: 0
+  arrowSpeedChange: 0
+  eyesBehindMyBack: 0
+  concentrateFire: 0
+  turningSword: 0
+  upgradedVersion: {fileID: 11400000, guid: 8759a60d67693e545a29eb6576c932a4, type: 2}

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Restoration Jelly
   m_EditorClassIdentifier: 
   upgradeName: Restoration Jelly
+  id: 5
   description: +8 HP
-  level: 1
+  level: 2
   artwork: {fileID: 21300000, guid: c1d0e6764d9c5f8458571840fb1d57d3, type: 3}
   healthChange: 8
   attackChange: 0
@@ -22,3 +23,5 @@ MonoBehaviour:
   arrowSpeedChange: 0
   eyesBehindMyBack: 0
   concentrateFire: 0
+  turningSword: 0
+  upgradedVersion: {fileID: 0}
