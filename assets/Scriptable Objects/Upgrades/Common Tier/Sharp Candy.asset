@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Sharp Candy
   m_EditorClassIdentifier: 
   upgradeName: Sharp Candy
-  id: 5
+  id: 4
   description: +1 DMG
   level: 1
-  artwork: {fileID: 21300000, guid: 59c8cd2a91ad7f846b9efd79b945c356, type: 3}
+  artwork: {fileID: 1066994170, guid: 9dd29b8690afbb147896917c9e4de34f, type: 3}
   healthChange: 0
   attackChange: 1
   speedChange: 0

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6875684327061326334}
   - component: {fileID: 3427771922635867682}
   m_Layer: 0
-  m_Name: Type-(1)
+  m_Name: type 3 enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -140,7 +140,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1167023933, guid: d96634bd477d7f045a90c9e9ace437f8, type: 3}
+  m_Sprite: {fileID: 97180818, guid: 8a6fa93976cf13f4c9e11a8566cf067b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -190,7 +190,7 @@ Animator:
   m_GameObject: {fileID: 8919572309426340404}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cf0ffa86a12b8734398b0893fc4c75ff, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b43b06e7dbb86145a900f665c7064c4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

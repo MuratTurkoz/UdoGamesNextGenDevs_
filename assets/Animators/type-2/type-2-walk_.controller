@@ -68,7 +68,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9c9f6c039d273ef488ea31bd37fa5d1f, type: 2}
+  m_Motion: {fileID: 7400000, guid: aafcd8767e143974885fdcd72990d7ba, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -80,7 +80,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: type-3-walk_2
+  m_Name: type-2-walk_
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: attack
@@ -88,7 +88,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -148,7 +148,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 694dd8bac7d3196468bd6a1fbc5916fa, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7b467cc912d62834188dd3e348caa5db, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
