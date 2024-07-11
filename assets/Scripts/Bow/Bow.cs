@@ -46,6 +46,7 @@ public class Bow : MonoBehaviour
 
     private void MultipleShootSystem(int count)
     {
+        SoundManager.Instance.PlayArrowWhoosh();
         float startAngle = -spreadAngle * (count - 1) / 2; // starting angle
         print(startAngle);
 
