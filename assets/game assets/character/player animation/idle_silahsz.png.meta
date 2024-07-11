@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: 9871feff35383014ebcfd94e2bfc1cc0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_silahsz_0
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 4651
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d05850ab3a15e4696647b52ca83f89
+      internalID: 1031710347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_1
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 4647
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f40e8f77f581314ab108f7904835631
+      internalID: -504272496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_2
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 4647
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459659e5aebe6c44987a02fe4e798ee1
+      internalID: -1975636297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_3
+      rect:
+        serializedVersion: 2
+        x: 6135
+        y: 3180
+        width: 725
+        height: 1470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a855a5ca50c2124cb47cc0d01530286
+      internalID: -686803442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_4
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 3180
+        width: 762
+        height: 1459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072a7faf9b0aee340b1be366ad1bc605
+      internalID: 607715803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_5
+      rect:
+        serializedVersion: 2
+        x: 7288
+        y: 4628
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bfdaf40d6cf29489933aa656966fba
+      internalID: 349364320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_6
+      rect:
+        serializedVersion: 2
+        x: 7325
+        y: 4628
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928035fa553eb5e4f9f374590bb56310
+      internalID: -1129670941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_7
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 4614
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e45ea57fc689458339a0982e7c322
+      internalID: -1786832270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_8
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 4619
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afc43b097758cf4e86d7d100028dbe8
+      internalID: 1299199934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_9
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 3180
+        width: 802
+        height: 1427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0747671df8c497f40aacbf04516441bf
+      internalID: 233827170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_10
+      rect:
+        serializedVersion: 2
+        x: 5829
+        y: 4605
+        width: 40
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6821ec4a3ec64c94bb648bd0c3425c0d
+      internalID: -69835530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_11
+      rect:
+        serializedVersion: 2
+        x: 5270
+        y: 4577
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3342c5a0fe2b0d643a88d40c45a3ed8d
+      internalID: -2016963029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_12
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 4577
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e073c3e45066e4a47b70fd75a68cb644
+      internalID: -1538355766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_13
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 4577
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac29bee6ee2c0242bcad2d53e250644
+      internalID: -672072079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_14
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 3284
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b5e6b3a244eb46992516f09fde865
+      internalID: 265547095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_15
+      rect:
+        serializedVersion: 2
+        x: 4657
+        y: 3162
+        width: 753
+        height: 1408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988ac71ff7d61984e9eda0d2ae37c75a
+      internalID: 787457670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_16
+      rect:
+        serializedVersion: 2
+        x: 5708
+        y: 3270
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ded161417ee4074fa7eefc5deafc3b2
+      internalID: -886961702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_17
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 2905
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf0d5a1018f9a64cacc4a1776db8580
+      internalID: 1400471640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_18
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 2901
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ada27e705d18a45b829ffef913eca4
+      internalID: 545678070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_19
+      rect:
+        serializedVersion: 2
+        x: 5847
+        y: 2891
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be144f1a3e32234eac2cf79343f26e9
+      internalID: 1866334772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_20
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 2891
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9646dbfcef6776641813b559111522f0
+      internalID: -1503457465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_21
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 2882
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd171af5ebb80e46a5f4c7971c9f9ac
+      internalID: 1063675043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_22
+      rect:
+        serializedVersion: 2
+        x: 4683
+        y: 2859
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff58bb5c4bbed04cb335db75fb4eecd
+      internalID: -1777765529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_23
+      rect:
+        serializedVersion: 2
+        x: 5293
+        y: 2859
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7d23f6d9bfa7e42bec8bfdb2a4bb91
+      internalID: -1704545792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_24
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 2859
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0f5466ee2038243988783ac9ace410
+      internalID: -397963542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_25
+      rect:
+        serializedVersion: 2
+        x: 6122
+        y: 1416
+        width: 766
+        height: 1459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a517a513a63f08146a13ed723de3d917
+      internalID: -329783051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_26
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 1411
+        width: 753
+        height: 1443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cd9a01429413f4090fdfd1ba344f8a
+      internalID: 755033240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_27
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 2850
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db379f3564d1ac14abc204546b6ad4b5
+      internalID: 870253539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_28
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 1422
+        width: 1082
+        height: 1430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a936c3bea2c4b7a4bad1251130df7547
+      internalID: 2090277396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_29
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1437
+        width: 711
+        height: 1406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b006d9130e1d21448a96aca47679755
+      internalID: -657730877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_30
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 2827
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29316229a7e7e42bd8e765d8d6b66f
+      internalID: -895986583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_31
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 2827
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23f7159e37a53e469873c5844bce2cf
+      internalID: -1684998910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_32
+      rect:
+        serializedVersion: 2
+        x: 6073
+        y: 2822
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf77469d7660a84e8a2564ba0fa4caf
+      internalID: 1951186858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_33
+      rect:
+        serializedVersion: 2
+        x: 6069
+        y: 2818
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56073c04966e3c546b57b8f79d5992d8
+      internalID: -1975538721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_34
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 2785
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e0d4184853ec44983499550e3a0ffc
+      internalID: 430923092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_35
+      rect:
+        serializedVersion: 2
+        x: 5949
+        y: 2409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfbacae63c84ac40b1f73292a488ed8
+      internalID: 1514102288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_36
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 1515
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c0b05220987b340b018f6303cb19af
+      internalID: 237279343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1114
+        width: 1819
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcf5a48709274a4394bab9e4f27f400
+      internalID: -16980961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_38
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1164
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3975ee03bc2330c45ae9cdde01dddad4
+      internalID: 1695812613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_39
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1164
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29172e3e75846244e809914d3de6f732
+      internalID: 54380152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_40
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 1164
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38ad757f13218f428dd233f4b3d75df
+      internalID: -1757487282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_41
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 1164
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d14a157afb5f7549a8ac706cdce1cc3
+      internalID: 2125058382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_42
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 1164
+        width: 41
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd5e5ea61fb6544b8f948ed51b2acc7
+      internalID: -937008338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_43
+      rect:
+        serializedVersion: 2
+        x: 5727
+        y: 1164
+        width: 41
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1991c1822e97a446b63fcd92490a43f
+      internalID: -1565419251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_44
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 1164
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8863cc29b3950f1459ba7f73825905e4
+      internalID: 672822034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_45
+      rect:
+        serializedVersion: 2
+        x: 6101
+        y: 1164
+        width: 55
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce1a3e6a0fc0f849b9854d34f2c58f5
+      internalID: 159810344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_46
+      rect:
+        serializedVersion: 2
+        x: 6253
+        y: 1164
+        width: 46
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7680c195afaa3049a3bb4e04d779011
+      internalID: 809813739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_47
+      rect:
+        serializedVersion: 2
+        x: 7099
+        y: 1164
+        width: 40
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468add4f140d9de46b4cbd1eb4e30b70
+      internalID: -852976656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_48
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 1146
+        width: 92
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0518b324275e6a248bb84fe9cfef21e0
+      internalID: -464789338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_49
+      rect:
+        serializedVersion: 2
+        x: 4799
+        y: 1146
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f9e5c0aed16f44bc7d29a97f60a59
+      internalID: 978239775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_50
+      rect:
+        serializedVersion: 2
+        x: 8516
+        y: 1146
+        width: 41
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a030125c64cf4cc4ea95e5d1ac78a734
+      internalID: 210605144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_silahsz_51
+      rect:
+        serializedVersion: 2
+        x: 9403
+        y: 1112
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da974e3341e138a4fb801c8ff54658c5
+      internalID: -1855690095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      idle_silahsz_0: 1031710347
+      idle_silahsz_1: -504272496
+      idle_silahsz_10: -69835530
+      idle_silahsz_11: -2016963029
+      idle_silahsz_12: -1538355766
+      idle_silahsz_13: -672072079
+      idle_silahsz_14: 265547095
+      idle_silahsz_15: 787457670
+      idle_silahsz_16: -886961702
+      idle_silahsz_17: 1400471640
+      idle_silahsz_18: 545678070
+      idle_silahsz_19: 1866334772
+      idle_silahsz_2: -1975636297
+      idle_silahsz_20: -1503457465
+      idle_silahsz_21: 1063675043
+      idle_silahsz_22: -1777765529
+      idle_silahsz_23: -1704545792
+      idle_silahsz_24: -397963542
+      idle_silahsz_25: -329783051
+      idle_silahsz_26: 755033240
+      idle_silahsz_27: 870253539
+      idle_silahsz_28: 2090277396
+      idle_silahsz_29: -657730877
+      idle_silahsz_3: -686803442
+      idle_silahsz_30: -895986583
+      idle_silahsz_31: -1684998910
+      idle_silahsz_32: 1951186858
+      idle_silahsz_33: -1975538721
+      idle_silahsz_34: 430923092
+      idle_silahsz_35: 1514102288
+      idle_silahsz_36: 237279343
+      idle_silahsz_37: -16980961
+      idle_silahsz_38: 1695812613
+      idle_silahsz_39: 54380152
+      idle_silahsz_4: 607715803
+      idle_silahsz_40: -1757487282
+      idle_silahsz_41: 2125058382
+      idle_silahsz_42: -937008338
+      idle_silahsz_43: -1565419251
+      idle_silahsz_44: 672822034
+      idle_silahsz_45: 159810344
+      idle_silahsz_46: 809813739
+      idle_silahsz_47: -852976656
+      idle_silahsz_48: -464789338
+      idle_silahsz_49: 978239775
+      idle_silahsz_5: 349364320
+      idle_silahsz_50: 210605144
+      idle_silahsz_51: -1855690095
+      idle_silahsz_6: -1129670941
+      idle_silahsz_7: -1786832270
+      idle_silahsz_8: 1299199934
+      idle_silahsz_9: 233827170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
