@@ -519,6 +519,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[2].type
+      value: 
+      objectReference: {fileID: 11400000, guid: a53e08313882dff40960ee6f1c049545,
+        type: 2}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[3].type
+      value: 
+      objectReference: {fileID: 11400000, guid: a53e08313882dff40960ee6f1c049545,
+        type: 2}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[0].prefab
+      value: 
+      objectReference: {fileID: 8919572309426340404, guid: 9e657a17c8adbc9448a39f21d510203f,
+        type: 3}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[1].prefab
+      value: 
+      objectReference: {fileID: 7154976201000130921, guid: e45bb0dc7e46c49e8a729c50d3a4acf8,
+        type: 3}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[2].prefab
+      value: 
+      objectReference: {fileID: 2117094189486956192, guid: a17be4aa5bd9d9b48a21ea8b13a2b402,
+        type: 3}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[3].prefab
+      value: 
+      objectReference: {fileID: 2117094189486956192, guid: a17be4aa5bd9d9b48a21ea8b13a2b402,
+        type: 3}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[2].poolSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447013035037548925, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: prefabs.Array.data[3].poolSize
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6508876055733815350, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       propertyPath: m_Name
