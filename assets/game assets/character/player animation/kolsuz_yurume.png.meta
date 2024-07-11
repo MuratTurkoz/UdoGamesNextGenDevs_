@@ -1,0 +1,1095 @@
+fileFormatVersion: 2
+guid: 482c6807b52aa49469212873115003f7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kolsuz_yurume_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5391
+        width: 11
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaa9afa8e3d557489d7f6da6c88ceda
+      internalID: 1212703997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_1
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 5172
+        width: 198
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8e8cd620a0f4b489fabdef52c171db
+      internalID: -512682309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_2
+      rect:
+        serializedVersion: 2
+        x: 4820
+        y: 5444
+        width: 142
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452f8177a87382144a32eb11b6802980
+      internalID: 41318081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_3
+      rect:
+        serializedVersion: 2
+        x: 6141
+        y: 3619
+        width: 810
+        height: 1483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eed04a45029a94e99148b8d5b86c34
+      internalID: 1841681056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_4
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3679
+        width: 800
+        height: 1447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771e863c230c2dc4ea3b1dbf951cd43f
+      internalID: -1133129450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_5
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 5172
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2572e27ceb8019343acc74290617cb8a
+      internalID: 509882907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_6
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 3672
+        width: 820
+        height: 1523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6a35f99dc3e5444aca9bdc7ab8eba5
+      internalID: -1052006936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_7
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 5153
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39315d6f4da3f184d958249bb1be9910
+      internalID: 928621065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_8
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 5145
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601611401b3f67445a1411d1bea1c7c5
+      internalID: -2112557515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_9
+      rect:
+        serializedVersion: 2
+        x: 6215
+        y: 5149
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaa7bfbc0f1005488f59a953c1e1fa3
+      internalID: -1790698085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_10
+      rect:
+        serializedVersion: 2
+        x: 6399
+        y: 5149
+        width: 33
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99350f0ab7a76724896b5e917d1a29da
+      internalID: 161830769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_11
+      rect:
+        serializedVersion: 2
+        x: 6456
+        y: 5149
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902ab1a2f594bf74495e81d6e133bcc7
+      internalID: 208468128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_12
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 5149
+        width: 33
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ca1615aec147b4a887820ff864bfb4
+      internalID: 290397052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3632
+        width: 808
+        height: 1470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab3c4ca00168754f95e6f5ee91418e8
+      internalID: -1906018433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 5111
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a4fa951af20c438d2b2948fbb1dc6
+      internalID: -1430255420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_15
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 5111
+        width: 75
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a173f4324b7b24b9aa60e7a5c82bd3
+      internalID: -1830284893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 5111
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31ab34e7972d774c86914a1766ede96
+      internalID: 1668054702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_17
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 5110
+        width: 362
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77d54f95977c7a48ad6cb867474c9b1
+      internalID: 1789879694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_18
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 3672
+        width: 803
+        height: 1454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd22e1037561ae743b9e522b991c51ad
+      internalID: 368745592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3666
+        width: 4
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef7df457501ebd44bb59f8bdd1da9c9
+      internalID: -1216376154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1969
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef85d499847263e4fb2b9ac8e67f182c
+      internalID: -293396293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 610
+        width: 803
+        height: 1479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fed8f227361d254681a0eb64487d587
+      internalID: -673593622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_22
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 600
+        width: 803
+        height: 1472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c1db3acd6d5754e9a113c18bf33ea2
+      internalID: -935606956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_23
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 394
+        width: 805
+        height: 1657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7c2e4bb95a6b247b353002d9984329
+      internalID: -1331837655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_24
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 505
+        width: 829
+        height: 1507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8811d2e5ee964164c97e193f32aec13a
+      internalID: -909434999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_25
+      rect:
+        serializedVersion: 2
+        x: 6324
+        y: 487
+        width: 818
+        height: 1459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9e4a7d7a78fed4e9d0eb45c137cd7f
+      internalID: 584146424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_26
+      rect:
+        serializedVersion: 2
+        x: 5588
+        y: 1701
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bba77634fe53bb46a586a985534beda
+      internalID: 1041891938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_27
+      rect:
+        serializedVersion: 2
+        x: 5435
+        y: 1679
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c7893ed7013f446a95d6eaf566f846
+      internalID: -1300284678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_28
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1391
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac81d083c0fde94e8df5e6b97e5266f
+      internalID: 623987360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_29
+      rect:
+        serializedVersion: 2
+        x: 5491
+        y: 1295
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b4af76232b6ba48b506e4d2a9aec77
+      internalID: 650221844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_30
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 1267
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd4003e4cd9c554d9195e065eccd437
+      internalID: -954835467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_31
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 428
+        width: 289
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbab66d13dfc66146a87199ceea2ef47
+      internalID: 15490528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_32
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 428
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b706be7d4be5f343840e0777f04669f
+      internalID: -1299703473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_33
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 428
+        width: 126
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8439025912da5e428bbe5a66fb72a20
+      internalID: 38482075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_34
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 428
+        width: 164
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100be76c6947d54b8fb783f1e352061
+      internalID: 1507153708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_35
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 398
+        width: 106
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d85d8199ea01d49aa41d7e37651096
+      internalID: -1791681738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 398
+        width: 951
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2205c82655af4945a754f1caa961aa1
+      internalID: 607181486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_37
+      rect:
+        serializedVersion: 2
+        x: 5011
+        y: 337
+        width: 347
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e70d609095634d9dabb0c65b6732e
+      internalID: 229730006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_38
+      rect:
+        serializedVersion: 2
+        x: 5432
+        y: 337
+        width: 156
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b249eff5d16f54287b33f6f1efa9bf
+      internalID: 1097905367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_39
+      rect:
+        serializedVersion: 2
+        x: 6693
+        y: 298
+        width: 91
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149437c80ef88954baef1da14af721e5
+      internalID: -471240866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_40
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 298
+        width: 41
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d9b08289c869439ee7e9684c032c4
+      internalID: 1411495348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_41
+      rect:
+        serializedVersion: 2
+        x: 6953
+        y: 298
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3836d04050885c042a30abb33a990094
+      internalID: 347979675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_42
+      rect:
+        serializedVersion: 2
+        x: 6976
+        y: 298
+        width: 179
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44380df35eacc14ea5e5191b92a86bf
+      internalID: 342790967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuz_yurume_43
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 4164
+        width: 390
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710187f17fed33c409ff7c17d55d482f
+      internalID: -794677167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kolsuz_yurume_0: 1212703997
+      kolsuz_yurume_1: -512682309
+      kolsuz_yurume_10: 161830769
+      kolsuz_yurume_11: 208468128
+      kolsuz_yurume_12: 290397052
+      kolsuz_yurume_13: -1906018433
+      kolsuz_yurume_14: -1430255420
+      kolsuz_yurume_15: -1830284893
+      kolsuz_yurume_16: 1668054702
+      kolsuz_yurume_17: 1789879694
+      kolsuz_yurume_18: 368745592
+      kolsuz_yurume_19: -1216376154
+      kolsuz_yurume_2: 41318081
+      kolsuz_yurume_20: -293396293
+      kolsuz_yurume_21: -673593622
+      kolsuz_yurume_22: -935606956
+      kolsuz_yurume_23: -1331837655
+      kolsuz_yurume_24: -909434999
+      kolsuz_yurume_25: 584146424
+      kolsuz_yurume_26: 1041891938
+      kolsuz_yurume_27: -1300284678
+      kolsuz_yurume_28: 623987360
+      kolsuz_yurume_29: 650221844
+      kolsuz_yurume_3: 1841681056
+      kolsuz_yurume_30: -954835467
+      kolsuz_yurume_31: 15490528
+      kolsuz_yurume_32: -1299703473
+      kolsuz_yurume_33: 38482075
+      kolsuz_yurume_34: 1507153708
+      kolsuz_yurume_35: -1791681738
+      kolsuz_yurume_36: 607181486
+      kolsuz_yurume_37: 229730006
+      kolsuz_yurume_38: 1097905367
+      kolsuz_yurume_39: -471240866
+      kolsuz_yurume_4: -1133129450
+      kolsuz_yurume_40: 1411495348
+      kolsuz_yurume_41: 347979675
+      kolsuz_yurume_42: 342790967
+      kolsuz_yurume_43: -794677167
+      kolsuz_yurume_5: 509882907
+      kolsuz_yurume_6: -1052006936
+      kolsuz_yurume_7: 928621065
+      kolsuz_yurume_8: -2112557515
+      kolsuz_yurume_9: -1790698085
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
