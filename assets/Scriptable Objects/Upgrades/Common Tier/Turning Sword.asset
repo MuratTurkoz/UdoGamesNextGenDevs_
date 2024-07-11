@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Turning Sword
   m_EditorClassIdentifier: 
   upgradeName: Turning Sword
-  id: 8
+  id: 7
   description: Get a turning sword
   level: 0
-  artwork: {fileID: 21300000, guid: 95052c6b62fb3de4695beaa99f842ac2, type: 3}
+  artwork: {fileID: -845562134, guid: 4d8504cf7f30f8d4b96860bed4d96921, type: 3}
   healthChange: 0
   attackChange: 0
   speedChange: 0
@@ -24,3 +24,4 @@ MonoBehaviour:
   eyesBehindMyBack: 0
   concentrateFire: 0
   turningSword: 1
+  upgradedVersion: {fileID: 0}

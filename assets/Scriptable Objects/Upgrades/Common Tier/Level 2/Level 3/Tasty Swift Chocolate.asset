@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Tasty Swift Chocolate
   m_EditorClassIdentifier: 
   upgradeName: Tasty Swift Chocolate
-  id: 7
+  id: 4
   description: +0.5 SPD
   level: 3
-  artwork: {fileID: 21300000, guid: 7d58fd33da0c1714e83ed3c55ae05bb9, type: 3}
+  artwork: {fileID: 1561260091, guid: 9dd29b8690afbb147896917c9e4de34f, type: 3}
   healthChange: 0
   attackChange: 0
   speedChange: 0.5

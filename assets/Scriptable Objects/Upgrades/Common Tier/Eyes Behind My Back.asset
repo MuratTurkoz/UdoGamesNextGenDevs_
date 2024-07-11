@@ -16,7 +16,7 @@ MonoBehaviour:
   id: 1
   description: Shoot your back
   level: 1
-  artwork: {fileID: 21300000, guid: 4461c87bad5222349b14c22b26d43b95, type: 3}
+  artwork: {fileID: 346582999, guid: 4d8504cf7f30f8d4b96860bed4d96921, type: 3}
   healthChange: 0
   attackChange: 0
   speedChange: 0
@@ -24,3 +24,4 @@ MonoBehaviour:
   eyesBehindMyBack: 1
   concentrateFire: 0
   turningSword: 0
+  upgradedVersion: {fileID: 0}

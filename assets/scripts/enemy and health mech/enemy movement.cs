@@ -11,6 +11,15 @@ public class Enemymovement : MonoBehaviour
     private float damageTimer = 0f; // Zamanlayıcı
     public float stoppingDistance = 1.5f; // duracağı mesafe
 
+    Animator _animator;
+
+    SpriteRenderer _spriteRenderer;
+
+    private void Awake() {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
+    }
+
     void Start()
     {
         target = FindObjectOfType<PlayerMovement>().transform;
@@ -20,6 +29,14 @@ public class Enemymovement : MonoBehaviour
     void FixedUpdate()
     {
         float step = movespeed * Time.deltaTime;
+        if (target.position.x - transform.position.x > 0)
+        {
+            _spriteRenderer.flipX = false;
+        }
+        else if (target.position.x - transform.position.x < 0)
+        {
+            _spriteRenderer.flipX = true;
+        }
         transform.position = Vector3.MoveTowards(transform.position, target.position, step);
     }
 
@@ -30,6 +47,7 @@ public class Enemymovement : MonoBehaviour
             damageTimer -= Time.deltaTime;
             if (damageTimer <= 0f)
             {
+                _animator.SetTrigger("attack");
                 PlayerHealth.instance.TakeDamage(damage);
                 damageTimer = damageInterval; // Zamanlayıcıyı sıfırla
             }

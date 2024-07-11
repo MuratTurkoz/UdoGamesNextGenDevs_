@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 507d7869273b8054b8ca31e853b6b39c, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 145f9f42fbe978947a25b213c84e7c2b, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.9811321, g: 0.9268372, b: 0.41189036, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -351,6 +351,14 @@ MonoBehaviour:
   _upgradeDescriptionTMP: {fileID: 8916380395780903672}
   _upgradeLvlTMP: {fileID: 5962642692982254201}
   _upgradeIcon: {fileID: 5161768151258135586}
+  upgradeManager: {fileID: 0}
+  player: {fileID: 0}
+  damageAmount: {fileID: 0}
+  playerCurrentHealth: {fileID: 0}
+  arrowSpeed: {fileID: 0}
+  originalBow: {fileID: 0}
+  extraBow: {fileID: 0}
+  turningSword: {fileID: 0}
 --- !u!1 &8222495074856954316
 GameObject:
   m_ObjectHideFlags: 0

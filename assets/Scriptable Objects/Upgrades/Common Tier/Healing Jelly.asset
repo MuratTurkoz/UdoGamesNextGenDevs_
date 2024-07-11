@@ -16,7 +16,7 @@ MonoBehaviour:
   id: 2
   description: +4 HP
   level: 1
-  artwork: {fileID: 21300000, guid: c1d0e6764d9c5f8458571840fb1d57d3, type: 3}
+  artwork: {fileID: -1503050275, guid: 4d8504cf7f30f8d4b96860bed4d96921, type: 3}
   healthChange: 4
   attackChange: 0
   speedChange: 0
