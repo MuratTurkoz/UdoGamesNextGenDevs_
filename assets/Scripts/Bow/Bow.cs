@@ -6,11 +6,18 @@ public class Bow : MonoBehaviour
 {
 
     [SerializeField] private PlayerMovement playerMovement;
-    public float shootFrequency; // The frequency of arrows to be shot
+    public float shootFrequency { get { return _attackRate; } set { _attackRate.Value = value; } } // The frequency of arrows to be shot
+
+    [SerializeField] private Float _attackRate;
+    [SerializeField] private float _defaultAttackRate = 0.3f;
 
     public ObjectPool pool; // Arrow Pool
     public int arrowCount = 3; // Number of arrows to shoot
     public float spreadAngle = 10.0f; // Spreading angle between arrows
+
+    private void Awake() {
+        _attackRate.Value = _defaultAttackRate;
+    }
 
     private void Start()
     {

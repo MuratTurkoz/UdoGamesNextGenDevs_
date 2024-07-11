@@ -98,7 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1633430057762562476}
-  shootFrequency: 0.3
+  _attackRate: {fileID: 11400000, guid: d9a75a76bb4edd542ada42ce513149ae, type: 2}
+  _defaultAttackRate: 0.3
   pool: {fileID: 0}
   arrowCount: 3
   spreadAngle: 10
@@ -238,7 +239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 0}
-  playerSpeed: 2
+  _playerSpeed: {fileID: 11400000, guid: e54ac224ea77c5147b6c433b8ac49e0d, type: 2}
+  _defaultMoveSpeed: 5
   weaponTransform: {fileID: 5875438024377464899}
   characterSprite: {fileID: 8560804474260100118}
 --- !u!61 &7440716362255135729
