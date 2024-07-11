@@ -27,7 +27,7 @@ public class UpgradeManager : MonoBehaviour
     }
 
     public void PrepareUpgradePanel(){
-        randomList = new List<int>();
+        
         GenerateRandomList();
         
         for(int i = 0; i<buttons.Length; i++){
@@ -41,7 +41,8 @@ public class UpgradeManager : MonoBehaviour
         }
     }
 
-    public void GenerateRandomList (){
+    public void GenerateRandomList(){
+    randomList = new List<int>();   
     for(int i = 0; i < upgrades.Count; i++){
        int numToAdd = Random.Range(0,upgrades.Count);
        while(randomList.Contains(numToAdd)){
