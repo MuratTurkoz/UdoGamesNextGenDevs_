@@ -20,8 +20,7 @@ public class LevelManager : PlayerExp
 
     private void LevelUpgrade()
     {
-        // Place to deposit level after sufficient experience has been achieved
-        UpgradeArrow();
+       
     }
 
     private void UpgradeArrow()

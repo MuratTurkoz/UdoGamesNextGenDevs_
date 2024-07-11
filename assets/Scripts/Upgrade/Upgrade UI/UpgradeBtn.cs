@@ -50,7 +50,7 @@ public class UpgradeBtn : MonoBehaviour
         playerCurrentHealth.Value += btnHealthChange; 
         arrowSpeed.Value += arrowSpeed.Value * btnArrowSpeedChange;
 
-
+        Debug.Log(_upgradeNameTMP);
 
         if(btnEyesBehindMyBack){
             extraBow.SetActive(true);
@@ -101,7 +101,7 @@ public class UpgradeBtn : MonoBehaviour
         btnTurningSword = turningSword;
         btnUpgradedVersion = upgradedVersion;
     }
-    private void OnDisable()
+   private void OnDisable()
     {
         _upgradeButton.onClick.RemoveListener(OnUpgradeSelect);
     }
