@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7c0f3d9a4e46f84297b67098f20d357, type: 3}
-  m_Name: Restoration Jelly
+  m_Name: Delightful Swift Chocolate
   m_EditorClassIdentifier: 
-  upgradeName: Restoration Jelly
-  id: 5
-  description: +8 HP
-  level: 2
-  artwork: {fileID: 21300000, guid: c1d0e6764d9c5f8458571840fb1d57d3, type: 3}
-  healthChange: 8
+  upgradeName: Delightful Swift Chocolate
+  id: 7
+  description: +0.5 SPD
+  level: 4
+  artwork: {fileID: 21300000, guid: 7d58fd33da0c1714e83ed3c55ae05bb9, type: 3}
+  healthChange: 0
   attackChange: 0
-  speedChange: 0
+  speedChange: 0.5
   arrowSpeedChange: 0
   eyesBehindMyBack: 0
   concentrateFire: 0
   turningSword: 0
-  upgradedVersion: {fileID: 11400000, guid: 5fb24007f24b77148b519e9d71748ad1, type: 2}
+  upgradedVersion: {fileID: 0}

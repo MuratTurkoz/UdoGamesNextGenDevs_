@@ -301,12 +301,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgrades:
+  - {fileID: 11400000, guid: ec0b433d48866c040ae2b721fe779001, type: 2}
+  - {fileID: 11400000, guid: 15900ddd28671be419d125801bc7cef1, type: 2}
   - {fileID: 11400000, guid: 0fd029b8d071d0045937cacfc804b20b, type: 2}
-  - {fileID: 11400000, guid: 0fd029b8d071d0045937cacfc804b20b, type: 2}
-  - {fileID: 11400000, guid: 0fd029b8d071d0045937cacfc804b20b, type: 2}
-  - {fileID: 11400000, guid: 0fd029b8d071d0045937cacfc804b20b, type: 2}
-  - {fileID: 11400000, guid: 0fd029b8d071d0045937cacfc804b20b, type: 2}
-  - {fileID: 11400000, guid: 0fd029b8d071d0045937cacfc804b20b, type: 2}
+  - {fileID: 11400000, guid: 5e6b344188123674f81f3afea225d1ce, type: 2}
+  - {fileID: 11400000, guid: 4f8431224bcab49458da1896171f7343, type: 2}
+  - {fileID: 11400000, guid: cb2c29d7d0a685b48ac1a340f4b019cd, type: 2}
+  - {fileID: 11400000, guid: f467aed37eea90a429e5f0b8a7cb1460, type: 2}
+  - {fileID: 11400000, guid: 1bf154ba6b2c8104e80bb51820bc4e5e, type: 2}
   buttons:
   - {fileID: 1304629461}
   - {fileID: 174080601}

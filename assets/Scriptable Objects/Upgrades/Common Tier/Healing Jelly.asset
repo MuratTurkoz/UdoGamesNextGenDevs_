@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Healing Jelly
   m_EditorClassIdentifier: 
   upgradeName: Healing Jelly
-  id: 4
+  id: 2
   description: +4 HP
   level: 1
   artwork: {fileID: 21300000, guid: c1d0e6764d9c5f8458571840fb1d57d3, type: 3}
@@ -24,4 +24,4 @@ MonoBehaviour:
   eyesBehindMyBack: 0
   concentrateFire: 0
   turningSword: 0
-  upgradedVersion: {fileID: 11400000, guid: ce0da5050131cb84cb09c6564786dcab, type: 2}
+  upgradedVersion: {fileID: 11400000, guid: ef5cf40d920641042b6cb1cbe816a9ba, type: 2}

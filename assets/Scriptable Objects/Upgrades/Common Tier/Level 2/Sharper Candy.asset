@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7c0f3d9a4e46f84297b67098f20d357, type: 3}
-  m_Name: Restoration Jelly
+  m_Name: Sharper Candy
   m_EditorClassIdentifier: 
-  upgradeName: Restoration Jelly
+  upgradeName: Sharper Candy
   id: 5
-  description: +8 HP
+  description: +1 DMG
   level: 2
-  artwork: {fileID: 21300000, guid: c1d0e6764d9c5f8458571840fb1d57d3, type: 3}
-  healthChange: 8
-  attackChange: 0
+  artwork: {fileID: 21300000, guid: 59c8cd2a91ad7f846b9efd79b945c356, type: 3}
+  healthChange: 0
+  attackChange: 1
   speedChange: 0
   arrowSpeedChange: 0
   eyesBehindMyBack: 0
   concentrateFire: 0
   turningSword: 0
-  upgradedVersion: {fileID: 11400000, guid: 5fb24007f24b77148b519e9d71748ad1, type: 2}
+  upgradedVersion: {fileID: 0}

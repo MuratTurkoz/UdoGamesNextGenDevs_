@@ -71,7 +71,7 @@ public class UpgradeBtn : MonoBehaviour
             
         }
         
-        if(!(btnUpgradedVersion == null && btnConcentrateFire && btnEyesBehindMyBack && btnTurningSword)){
+        if(!(btnUpgradedVersion == null || btnConcentrateFire || btnEyesBehindMyBack || btnTurningSword)){
             upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
             upgradeManager.GetComponent<UpgradeManager>().upgrades.Add(btnUpgradedVersion);
         }
