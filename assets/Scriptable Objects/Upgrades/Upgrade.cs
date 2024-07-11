@@ -14,5 +14,9 @@ public class Upgrade : ScriptableObject
    public float healthChange;
    public float attackChange;
    public float speedChange;
+   public float arrowSpeedChange;
+   public bool eyesBehindMyBack;
+   public bool concentrateFire;
+   public bool turningSword;
 
 }
