@@ -15,17 +15,23 @@ public class PlayerExp : MonoBehaviour
     public List<int> ExpLimits;
     public int PlayerLevel { get { return expCounter; } }
     public float ExpPercent { get { return (float)ExpAmaount / GetExpLimitFromList(PlayerLevel); } }
-    
-    private void Awake() {
+
+    private void Awake()
+    {
         expAmaount.Value = 0;
         expCounter.Value = 0;
         targetExp.Value = GetExpLimitFromList(expCounter);
     }
 
-    private void Start()
+    private void OnEnable()
     {
         OnReachExp += HandleOnReachExp;
         OnGetExp += HandleOnGetExp;
+    }
+    private void OnDisable()
+    {
+        OnReachExp -= HandleOnReachExp;
+        OnGetExp -= HandleOnGetExp;
     }
 
     public void GetExp(int exp)
@@ -33,20 +39,23 @@ public class PlayerExp : MonoBehaviour
         LogManager.Instance.ShowMessage("+" + exp + " xp!", Color.green);
         ExpAmaount += exp;
         OnGetExp?.Invoke();
+        SetExp();
     }
 
     private void Update()
     {
-        SetExp();
+        // SetExp();
     }
 
     public void SetExp()
     {
         if (CheckExp(GetExpLimitFromList(expCounter)))
         {
+            Debug.Log("Choose your Boost ");
             OnReachExp?.Invoke();
             expCounter.Value++;
             targetExp.Value = GetExpLimitFromList(expCounter);
+            expAmaount.Value = 0;
         }
 
     }
@@ -68,7 +77,7 @@ public class PlayerExp : MonoBehaviour
     {
         Debug.Log("Player has gained enough experience to level up");
     }
-     protected virtual void HandleOnGetExp()
+    protected virtual void HandleOnGetExp()
     {
         Debug.Log("Player has got Exp");
     }
