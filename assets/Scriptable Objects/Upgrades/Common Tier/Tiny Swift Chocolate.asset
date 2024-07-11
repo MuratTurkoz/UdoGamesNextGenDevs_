@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c0f3d9a4e46f84297b67098f20d357, type: 3}
   m_Name: Tiny Swift Chocolate
   m_EditorClassIdentifier: 
-  upgradeName: 'Tiny Switf Chocolate '
+  upgradeName: 'Tiny Swift Chocolate '
+  id: 7
   description: +0.5 SPD
   level: 1
   artwork: {fileID: 21300000, guid: 7d58fd33da0c1714e83ed3c55ae05bb9, type: 3}
   healthChange: 0
   attackChange: 0
   speedChange: 0.5
+  arrowSpeedChange: 0
+  eyesBehindMyBack: 0
+  concentrateFire: 0
+  turningSword: 0
+  upgradedVersion: {fileID: 11400000, guid: 39b5bba1d1c8f7647bb1ea9a01c45c8c, type: 2}

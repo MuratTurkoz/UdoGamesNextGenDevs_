@@ -15,8 +15,14 @@ public class Bow : MonoBehaviour
     public int arrowCount = 3; // Number of arrows to shoot
     public float spreadAngle = 10.0f; // Spreading angle between arrows
 
+    [SerializeField] private bool _arrowsSpawningForward = true;
+
     private void Awake() {
         _attackRate.Value = _defaultAttackRate;
+        if (!_arrowsSpawningForward)
+        {
+            transform.eulerAngles = new Vector3(0, 200, 0);
+        }
     }
 
     private void Start()
@@ -58,7 +64,7 @@ public class Bow : MonoBehaviour
             var arrow = pool.obj; // Get an arrow from the object pool
             arrow.transform.position = this.transform.position;
             arrow.GetComponent<Arrow>().firstTransform = this.transform.position;
-            arrow.transform.rotation = rot;
+            arrow.transform.rotation =  rot;
         }
     }
 }

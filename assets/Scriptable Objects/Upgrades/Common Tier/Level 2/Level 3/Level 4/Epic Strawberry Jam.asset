@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7c0f3d9a4e46f84297b67098f20d357, type: 3}
-  m_Name: Juicy Jelly Strings
+  m_Name: Epic Strawberry Jam
   m_EditorClassIdentifier: 
-  upgradeName: Refined Jelly Strings
-  id: 3
-  description: Arrow Speed +%25
-  level: 1
-  artwork: {fileID: 21300000, guid: bbf8638a8a75d9c42b93639213c92c9b, type: 3}
-  healthChange: 0
+  upgradeName: Epic Strawberry Jam
+  id: 6
+  description: +2.5 HP
+  level: 4
+  artwork: {fileID: 21300000, guid: da7129ed6a246f048a49d8d97de2d2d4, type: 3}
+  healthChange: 2.5
   attackChange: 0
   speedChange: 0
-  arrowSpeedChange: 0.25
+  arrowSpeedChange: 0
   eyesBehindMyBack: 0
   concentrateFire: 0
   turningSword: 0
-  upgradedVersion: {fileID: 11400000, guid: 95a434d2012b4054aa5103380d796220, type: 2}
+  upgradedVersion: {fileID: 0}

@@ -7,6 +7,7 @@ using UnityEngine;
 public class Upgrade : ScriptableObject
 {
    public string upgradeName;
+   public int id;
    public string description;
    public int level;
 
@@ -18,5 +19,6 @@ public class Upgrade : ScriptableObject
    public bool eyesBehindMyBack;
    public bool concentrateFire;
    public bool turningSword;
+   public Upgrade upgradedVersion;
 
 }
