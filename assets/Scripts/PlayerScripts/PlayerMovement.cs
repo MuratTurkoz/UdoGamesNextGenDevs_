@@ -25,8 +25,11 @@ public class PlayerMovement : MonoBehaviour
     public float minX;
     public float minY;
 
+    Animator _animator;
+
     private void Awake() {
         _playerSpeed.Value = _defaultMoveSpeed;
+        _animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -42,7 +45,16 @@ public class PlayerMovement : MonoBehaviour
             horizontal = joystick.Horizontal;
             vertical = joystick.Vertical;
             Movement(new Vector2(horizontal,vertical), _playerSpeed);
+            _animator.SetBool("isMoving", true);
             }
+            else
+            {
+                _animator.SetBool("isMoving", false);
+            }
+        }
+        else
+        {
+            _animator.SetBool("isMoving", false);
         }
     }
 
