@@ -5,8 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Joystick joystick;
-    [SerializeField] public float playerSpeed;
-    public float PlayerSpeed{get{ return PlayerSpeed;} set{playerSpeed = value;}}
+    [SerializeField] private Float _playerSpeed;
+    [SerializeField] private float _defaultMoveSpeed = 5;
+    public float playerSpeed{get{ return _playerSpeed;} set{ _playerSpeed.Value = value;}}
+    public float PlayerSpeed{get{ return _playerSpeed;} set{ _playerSpeed.Value = value;}}
 
     private float horizontal;
     private float vertical;
@@ -16,6 +18,10 @@ public class PlayerMovement : MonoBehaviour
     public static bool IsTouched;
     [SerializeField] private Transform weaponTransform;
     [SerializeField] private SpriteRenderer characterSprite;
+
+    private void Awake() {
+        _playerSpeed.Value = _defaultMoveSpeed;
+    }
 
     void Update()
     {
@@ -29,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             if (joystick.Horizontal != 0 || joystick.Vertical != 0){
             horizontal = joystick.Horizontal;
             vertical = joystick.Vertical;
-            Movement(new Vector2(horizontal,vertical),playerSpeed);
+            Movement(new Vector2(horizontal,vertical), _playerSpeed);
             }
         }
     }
