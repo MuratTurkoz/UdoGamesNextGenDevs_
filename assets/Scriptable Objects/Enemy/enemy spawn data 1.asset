@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97306e3fe21bddf4390102922450f1dc, type: 3}
-  m_Name: Simple Test Enemy 1
+  m_Name: enemy spawn data 1
   m_EditorClassIdentifier: 
-  EnemyType: {fileID: 11400000, guid: e5360eef46e454843b6408284a63f66e, type: 2}
+  EnemyType: {fileID: 11400000, guid: 8da07d541af09a94a8a61799a4b87a94, type: 2}
   EnemySpawnDelay: 1
   MinSpawnCount: 1
   MaxSpawnCount: 1

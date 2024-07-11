@@ -43,6 +43,7 @@ public class UpgradeBtn : MonoBehaviour
 
     private void OnUpgradeSelect()
     {
+        Debug.Log("Upgrade Selected");
         OnUpgradeSelected?.Invoke();
         // APPLY UPGRADE
         player.GetComponent<PlayerMovement>().playerSpeed += btnSpeedChange;
@@ -101,7 +102,7 @@ public class UpgradeBtn : MonoBehaviour
         btnTurningSword = turningSword;
         btnUpgradedVersion = upgradedVersion;
     }
-   private void OnDisable()
+   private void OnDestroy()
     {
         _upgradeButton.onClick.RemoveListener(OnUpgradeSelect);
     }
