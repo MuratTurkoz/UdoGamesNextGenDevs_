@@ -28,7 +28,7 @@ public class LevelManager : PlayerExp
     {
         foreach (var item in arrowPool.pool)
         {
-            item.GetComponent<Arrow>().arrowSpeed += 0.5f;
+            item.GetComponent<Arrow>().arrowSpeed.Value += 0.5f;
         }
     }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     public Float damageAmaunt;
-    public float arrowSpeed;
+    public Float arrowSpeed;
     public float borderLength;
 
     [HideInInspector] public Vector2 firstTransform;

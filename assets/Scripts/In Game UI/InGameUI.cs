@@ -61,12 +61,14 @@ public class InGameUI : MonoBehaviour
 
     private void OnRestartBtnPressed()
     {
+        SoundManager.Instance.PlayUiBtn();
         GameManager.Instance.RestartGame();
     }
 
     private void OnContinueBtnPressed()
     {
         ClosePausePanel();
+        SoundManager.Instance.PlayUiBtn();
     }
 
     private void OnLevelUp(int level)
@@ -89,6 +91,7 @@ public class InGameUI : MonoBehaviour
 
     private void ShowUpgradePanel()
     {
+        SoundManager.Instance.PlayUpgradeSelected();
         upgradeManager.GetComponent<UpgradeManager>().PrepareUpgradePanel();
         _upgradePanel.SetActive(true);
         Time.timeScale = 0;
@@ -111,10 +114,12 @@ public class InGameUI : MonoBehaviour
     {
         _upgradePanel.SetActive(false);
         Time.timeScale = 1;
+        SoundManager.Instance.PlayUiBtn();
     }
 
     private void OnPauseBtnClicked()
     {
+        SoundManager.Instance.PlayUiBtn();
         _pausePanel.SetActive(true);
         Time.timeScale = 0;
     }

@@ -14,6 +14,7 @@ public class EntranceManager : MonoBehaviour
 
     private void OnStartPressed()
     {
+        SoundManager.Instance.PlayUiBtn();
         if (PlayerPrefs.GetInt(IS_INTRO_SHOWED_KEY, 0) == 0)
         {
             PlayerPrefs.SetInt(IS_INTRO_SHOWED_KEY, 1);

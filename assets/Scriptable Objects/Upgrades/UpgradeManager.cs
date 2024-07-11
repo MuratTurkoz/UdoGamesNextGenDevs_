@@ -8,7 +8,9 @@ public class UpgradeManager : MonoBehaviour
     public Upgrade[] upgrades;
     public GameObject[] buttons;
     public float defaultDamageAmount = 5;
+    public float defaultArrowSpeed = 5;
     [SerializeField] Float damageAmount;
+    [SerializeField] Float arrowSpeed;
     private int maxNum;
     private List <int> randomList;
 
@@ -17,7 +19,8 @@ public class UpgradeManager : MonoBehaviour
     void Start()
     {
      maxNum = upgrades.Length;   
-     damageAmount.Value = defaultDamageAmount;  
+     damageAmount.Value = defaultDamageAmount;
+     arrowSpeed.Value = defaultArrowSpeed;  
         
 
 
@@ -30,7 +33,9 @@ public class UpgradeManager : MonoBehaviour
         for(int i = 0; i<buttons.Length; i++){
             
             buttons[i].GetComponent<UpgradeBtn>().SetUpgrade(upgrades[randomList[i]].name, upgrades[randomList[i]].description, 
-            upgrades[randomList[i]].level, upgrades[randomList[i]].artwork, upgrades[randomList[i]].healthChange, upgrades[randomList[i]].attackChange, upgrades[randomList[i]].speedChange);
+            upgrades[randomList[i]].level, upgrades[randomList[i]].artwork, upgrades[randomList[i]].healthChange, 
+            upgrades[randomList[i]].attackChange, upgrades[randomList[i]].speedChange, upgrades[randomList[i]].arrowSpeedChange,
+            upgrades[randomList[i]].eyesBehindMyBack, upgrades[randomList[i]].concentrateFire, upgrades[randomList[i]].turningSword);
         }
     }
 
@@ -44,6 +49,8 @@ public class UpgradeManager : MonoBehaviour
 
    }
     }
+    
+    
     void Update()
     {
         

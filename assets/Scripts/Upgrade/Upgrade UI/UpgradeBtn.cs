@@ -20,9 +20,18 @@ public class UpgradeBtn : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] Float damageAmount;
     [SerializeField] Float playerCurrentHealth;
+    [SerializeField] Float arrowSpeed;
+    [SerializeField] GameObject originalBow;
+    [SerializeField] GameObject extraBow;
+    [SerializeField] GameObject turningSword;
     private float btnHealthChange;
     private float btnAttackChange;
     private float btnSpeedChange;
+    private float btnArrowSpeedChange;
+    private bool btnEyesBehindMyBack;
+    private bool btnConcentrateFire;
+    private bool btnTurningSword;
+    
 
     private void Awake() {
         _upgradeButton = GetComponent<Button>();
@@ -36,13 +45,28 @@ public class UpgradeBtn : MonoBehaviour
         player.GetComponent<PlayerMovement>().playerSpeed += btnSpeedChange;
         damageAmount.Value += btnAttackChange;
         playerCurrentHealth.Value += btnHealthChange; 
+        arrowSpeed.Value += arrowSpeed.Value * btnArrowSpeedChange;
+
+        if(btnEyesBehindMyBack){
+            extraBow.SetActive(true);
+            //extraBow.transform.Rotate(0,originalBow.transform.rotation.y + 150,0);    
+        }
+        if(btnConcentrateFire){
+            originalBow.GetComponent<Bow>().arrowCount = 3;
+            extraBow.GetComponent<Bow>().arrowCount = 3;
+        }
+        if(btnTurningSword){
+            turningSword.SetActive(true);
+        }
+
         
+
         
 
 
     }
 
-    public void SetUpgrade(string name, string desc, int lvl, Sprite icon, float healthChange, float attackChange, float speedChange)
+    public void SetUpgrade(string name, string desc, int lvl, Sprite icon, float healthChange, float attackChange, float speedChange, float arrowSpeedChange, bool eyesBehindMyBack, bool concentrateFire, bool turningSword)
     {
         _upgradeNameTMP.text = name;
         _upgradeDescriptionTMP.text = desc;
@@ -52,5 +76,9 @@ public class UpgradeBtn : MonoBehaviour
         btnHealthChange = healthChange;
         btnAttackChange = attackChange;
         btnSpeedChange = speedChange;
+        btnArrowSpeedChange = arrowSpeedChange;
+        btnEyesBehindMyBack = eyesBehindMyBack;
+        btnConcentrateFire = concentrateFire;
+        btnTurningSword = turningSword;
     }
 }
