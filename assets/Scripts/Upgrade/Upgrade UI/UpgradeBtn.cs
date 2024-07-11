@@ -101,4 +101,8 @@ public class UpgradeBtn : MonoBehaviour
         btnTurningSword = turningSword;
         btnUpgradedVersion = upgradedVersion;
     }
+    private void OnDisable()
+    {
+        _upgradeButton.onClick.RemoveListener(OnUpgradeSelect);
+    }
 }
