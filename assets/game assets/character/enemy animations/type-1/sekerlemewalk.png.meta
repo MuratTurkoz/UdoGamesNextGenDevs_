@@ -1,0 +1,471 @@
+fileFormatVersion: 2
+guid: d96634bd477d7f045a90c9e9ace437f8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sekerlemewalk_1
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3364
+        width: 1098
+        height: 1594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d5f310e86b76f4f81e79e67e849cc6
+      internalID: -1167023933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_2
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 3395
+        width: 1090
+        height: 1505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d294aac0acc614783edb9947de547f
+      internalID: 1473806735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_3
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 4897
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec85606a9cdbd7b43a87d83032de623e
+      internalID: -773888909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_4
+      rect:
+        serializedVersion: 2
+        x: 4858
+        y: 4897
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bac9f022171b74f906e2f9d318f562
+      internalID: -764914428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_5
+      rect:
+        serializedVersion: 2
+        x: 4878
+        y: 4897
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c466aa3b3077aa34a8bbc3ff370d1633
+      internalID: -407885706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_6
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 4893
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed40582017e6fee4f8f06b3abe81d89e
+      internalID: 2034300703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_8
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 3330
+        width: 1098
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f4c97ebfb73464bb67e137d28a67b3
+      internalID: 130575489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_9
+      rect:
+        serializedVersion: 2
+        x: 6051
+        y: 3337
+        width: 1108
+        height: 1507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e36dd29746e606429d3ea899551d55c
+      internalID: -980358187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 696
+        width: 1100
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56284b97e776a8a48ad2827ad0f4fddb
+      internalID: 2048463538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_11
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 738
+        width: 1075
+        height: 1479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f02755d3e0db6249b1c82ebcca68f10
+      internalID: -1803623174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_12
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2214
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ffbcecd9b93844fa26c10ccb43ee4e
+      internalID: -1311960117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_13
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 742
+        width: 1072
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820b9e2d6c7f828458e47b4073b7ba2b
+      internalID: -1649671712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_14
+      rect:
+        serializedVersion: 2
+        x: 6191
+        y: 723
+        width: 1086
+        height: 1570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033b2136f9ca15944a93f4c9b1d94088
+      internalID: -152102464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sekerlemewalk_15
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1915
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43cebbb0e14b2448441875b7efdd43
+      internalID: 161620683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sekerlemewalk_0: -18832516
+      sekerlemewalk_1: -1167023933
+      sekerlemewalk_10: 2048463538
+      sekerlemewalk_11: -1803623174
+      sekerlemewalk_12: -1311960117
+      sekerlemewalk_13: -1649671712
+      sekerlemewalk_14: -152102464
+      sekerlemewalk_15: 161620683
+      sekerlemewalk_16: -994308338
+      sekerlemewalk_17: -1794900300
+      sekerlemewalk_18: 572960362
+      sekerlemewalk_19: -1936080110
+      sekerlemewalk_2: 1473806735
+      sekerlemewalk_20: -1745658117
+      sekerlemewalk_21: 1014299355
+      sekerlemewalk_22: 32033340
+      sekerlemewalk_23: 1562071873
+      sekerlemewalk_24: -1515234644
+      sekerlemewalk_25: -1481269259
+      sekerlemewalk_26: 1677917507
+      sekerlemewalk_27: 1132318495
+      sekerlemewalk_28: 1045542035
+      sekerlemewalk_29: -771546021
+      sekerlemewalk_3: -773888909
+      sekerlemewalk_30: -317780312
+      sekerlemewalk_31: 474628860
+      sekerlemewalk_32: -1497849413
+      sekerlemewalk_33: -2096159659
+      sekerlemewalk_34: -158140936
+      sekerlemewalk_35: -1996034607
+      sekerlemewalk_36: -419931854
+      sekerlemewalk_37: -2099751821
+      sekerlemewalk_38: 2007339027
+      sekerlemewalk_39: -1092189986
+      sekerlemewalk_4: -764914428
+      sekerlemewalk_40: -1306489643
+      sekerlemewalk_41: 1887098139
+      sekerlemewalk_42: -989986667
+      sekerlemewalk_43: -1286972484
+      sekerlemewalk_44: -1522051504
+      sekerlemewalk_45: 1500829856
+      sekerlemewalk_46: 736825364
+      sekerlemewalk_47: -1607026324
+      sekerlemewalk_48: 393202740
+      sekerlemewalk_49: -266881344
+      sekerlemewalk_5: -407885706
+      sekerlemewalk_6: 2034300703
+      sekerlemewalk_7: -228744975
+      sekerlemewalk_8: 130575489
+      sekerlemewalk_9: -980358187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
