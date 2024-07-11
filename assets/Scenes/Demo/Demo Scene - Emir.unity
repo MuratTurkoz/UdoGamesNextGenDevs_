@@ -290,6 +290,8 @@ MonoBehaviour:
   - {fileID: 1304629461}
   - {fileID: 174080601}
   - {fileID: 858283805}
+  defaultDamageAmount: 5
+  damageAmount: {fileID: 11400000, guid: c6e5a4c549b66b74891ad49a86fd93f7, type: 2}
 --- !u!4 &221930364
 Transform:
   m_ObjectHideFlags: 0
@@ -548,9 +550,9 @@ GameObject:
   m_Component:
   - component: {fileID: 409222052}
   - component: {fileID: 409222051}
-  m_Layer: 2
+  m_Layer: 10
   m_Name: Camera Bounds
-  m_TagString: Untagged
+  m_TagString: CameraBounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1920,6 +1922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Entrance Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6145229026141028681, guid: 137a888642b9b96478c3ea2ba7c0472f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

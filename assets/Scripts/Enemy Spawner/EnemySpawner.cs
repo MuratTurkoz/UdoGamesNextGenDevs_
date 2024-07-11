@@ -132,20 +132,21 @@ public class EnemySpawner : MonoBehaviour
 
         Vector3 spawnPos = Vector3.zero;
         int edge = Random.Range(0, 4);
+        float randomness = Random.Range(0, 3f);
 
         switch (edge)
         {
             case 0: // Top
-                spawnPos = new Vector3(Random.Range(-camWidth / 2, camWidth / 2), camHeight / 2, 0);
+                spawnPos = new Vector3(Random.Range(-camWidth / 2, camWidth / 2), randomness + camHeight / 2, 0);
                 break;
             case 1: // Bottom
-                spawnPos = new Vector3(Random.Range(-camWidth / 2, camWidth / 2), -camHeight / 2, 0);
+                spawnPos = new Vector3(Random.Range(-camWidth / 2, camWidth / 2), (-camHeight / 2) - randomness, 0);
                 break;
             case 2: // Left
-                spawnPos = new Vector3(-camWidth / 2, Random.Range(-camHeight / 2, camHeight / 2), 0);
+                spawnPos = new Vector3((-camWidth / 2) - randomness, Random.Range(-camHeight / 2, camHeight / 2), 0);
                 break;
             case 3: // Right
-                spawnPos = new Vector3(camWidth / 2, Random.Range(-camHeight / 2, camHeight / 2), 0);
+                spawnPos = new Vector3(randomness + camWidth / 2, Random.Range(-camHeight / 2, camHeight / 2), 0);
                 break;
         }
 
@@ -171,7 +172,19 @@ public class EnemySpawner : MonoBehaviour
     {
         float checkRadius = 0.5f; // Adjust the radius as needed
         Collider2D[] colliders = Physics2D.OverlapCircleAll(position, checkRadius);
-        return colliders.Length > 0;
+        bool isInsideLimits = false;
+        foreach (var coll in colliders)
+        {
+            if (coll.CompareTag("CameraBounds"))
+            {
+                isInsideLimits = true;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        return !isInsideLimits;
 
         /* foreach (var collider in colliders)
         {
