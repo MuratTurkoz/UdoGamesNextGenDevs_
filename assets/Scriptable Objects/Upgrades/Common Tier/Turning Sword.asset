@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c0f3d9a4e46f84297b67098f20d357, type: 3}
   m_Name: Turning Sword
   m_EditorClassIdentifier: 
-  upgradeName: 
-  description: 
+  upgradeName: Turning Sword
+  description: Get a turning sword
   level: 0
   artwork: {fileID: 0}
   healthChange: 0
@@ -22,3 +22,4 @@ MonoBehaviour:
   arrowSpeedChange: 0
   eyesBehindMyBack: 0
   concentrateFire: 0
+  turningSword: 1
