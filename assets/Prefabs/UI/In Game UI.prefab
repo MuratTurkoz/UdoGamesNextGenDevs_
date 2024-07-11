@@ -1109,6 +1109,11 @@ MonoBehaviour:
   _healthTMP: {fileID: 8837544717362863828}
   _moveSpeedTMP: {fileID: 4022752205361167683}
   _playerLvlTMP: {fileID: 94514744148286130}
+  _playerDamage: {fileID: 11400000, guid: c6e5a4c549b66b74891ad49a86fd93f7, type: 2}
+  _playerLevel: {fileID: 11400000, guid: 501cdd9ad10eefb4e9e79bc025021610, type: 2}
+  _playerMaxHealth: {fileID: 11400000, guid: 2545874b8edcfbd4e9e09232b80ccfcb, type: 2}
+  _playerMoveSpeed: {fileID: 11400000, guid: e54ac224ea77c5147b6c433b8ac49e0d, type: 2}
+  _attackRate: {fileID: 11400000, guid: d9a75a76bb4edd542ada42ce513149ae, type: 2}
 --- !u!1 &5176368603280020411
 GameObject:
   m_ObjectHideFlags: 0
