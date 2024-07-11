@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CameraBounds
+  - Enemy
   layers:
   - Default
   - TransparentFX

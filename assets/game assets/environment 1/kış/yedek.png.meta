@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 358709bde023b894d9fbaa8e40366ba7
+guid: 9e3f5746138301847a5c5616e0eba1fa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -113,12 +113,12 @@ TextureImporter:
       name: teleset-2_0
       rect:
         serializedVersion: 2
-        x: 177
-        y: 349
-        width: 724
-        height: 709
+        x: 128
+        y: 240
+        width: 844
+        height: 864
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 1000
         height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
         width: 98
         height: 739
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

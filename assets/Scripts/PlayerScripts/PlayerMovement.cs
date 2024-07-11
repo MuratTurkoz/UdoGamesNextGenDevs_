@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
     public static bool IsTouched;
     [SerializeField] private Transform weaponTransform;
     [SerializeField] private SpriteRenderer characterSprite;
+
+    public float maxX;
+    public float maxY;
+    public float minX;
+    public float minY;
 
     private void Awake() {
         _playerSpeed.Value = _defaultMoveSpeed;
@@ -40,12 +46,26 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    /* private void OnCollisionEnter2D(Collision2D other) {
+        if (!other.gameObject.CompareTag("Enemy"))
+        {
+            Vector3 dir = transform.position - other.transform.position;
+            GetComponent<Rigidbody2D>().AddForce(dir.normalized * 2f);
+        }
+    } */
+
     private void Movement(Vector3 dir, float speed)
     {
         if (dir.x > 0) characterSprite.flipX = false;
         else if (dir.x < 0) characterSprite.flipX = true;
+
+        Vector3 pos = transform.position + dir * speed * Time.deltaTime;
+        pos.x = Mathf.Min(pos.x, maxX);
+        pos.y = Mathf.Min(pos.y, maxY);
+        pos.x = Mathf.Max(pos.x, minX);
+        pos.y = Mathf.Max(pos.y, minY);
         
-        transform.position = transform.position + dir * speed * Time.deltaTime;
+        transform.position = pos;
     }
 
     private void Rotation(Vector2 dir)
