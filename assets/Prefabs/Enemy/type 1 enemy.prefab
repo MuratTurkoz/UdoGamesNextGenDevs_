@@ -163,9 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb3e81f4f1917c40ba60975165982f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 1.5
-  damage: 3
-  stoppingDistance: 1.5
+  movespeed: 1
+  damage: 1
+  stoppingDistance: 1
 --- !u!114 &6875684327061326334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lootDatas: {fileID: 11400000, guid: 9992ccd0a33073149b5abcc89c59e650, type: 2}
-  _maxHealth: 10
+  _maxHealth: 5
 --- !u!95 &3427771922635867682
 Animator:
   serializedVersion: 5
