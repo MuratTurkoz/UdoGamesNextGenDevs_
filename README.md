@@ -27,7 +27,8 @@
 * [Mert Çakır](https://www.linkedin.com/in/mert-cakir0)
 
 
-
+## Summary
+You play as a character who tries to survive against an endless amount of candy enemies and as you kill your enemies you will get upgrades to make you stronger.
 
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
