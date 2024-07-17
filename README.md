@@ -1,6 +1,4 @@
-# Geliştirilme Süreci
-
-## Sweet Mayhem
+# Sweet Mayhem
 
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
