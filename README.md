@@ -47,7 +47,7 @@ You move your character with a joystick and your character automatically shoots 
 
 ## Theme
 * One of our team members came up with an idea related to the theme of the game while discussing. We all agreed on the same topic.
-* <img src= "Readme images/teama.png">
+<img src= "Readme images/teama.png">
 
 
 
@@ -173,9 +173,10 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
     <img width="100" height="130" src="Readme images/enemy3.png">
 
 ## Upgrades
-* <img src="Readme images/upgrades.png">
-* <img src="Readme images/upgrades-2.png">
+<img src="Readme images/upgrades.png">
+
+<img src="Readme images/upgrades-2.png">
 
 ## Çevre tasarımları
-* <img src="Readme images/1.png">
+<img src="Readme images/1.png">
 ## UI tasarımları
