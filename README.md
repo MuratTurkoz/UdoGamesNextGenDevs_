@@ -20,9 +20,9 @@
 #### Developers
 * [Baran Öner](https://www.linkedin.com/in/baran-öner-2a4a62157/)
 * [Eyüp Öztürk](https://www.linkedin.com/in/eyupozturk04/)
-* [Yaşar Düzgün]()
+* [Yaşar Düzgün](https://www.linkedin.com/in/yaşar-düzgün-72660726b)
 * [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
-* [Emircan İsanç]()
+* [Emircan İsanç](https://www.linkedin.com/in/emircan-isanc/)
 * [Mert Çakır](https://www.linkedin.com/in/mert-cakir0)
 
 
@@ -154,7 +154,6 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
     * karakter tasarımı kısmında art ve designer ekibi olarak elinde yay bulunması kararı alındı. Bü yüzden karakterin robin hood vari bir karakter olması fikrini aldık.
 
     <img width="100" height="130" src="Readme images/Player.png">
-
 
 
 - Enemies
