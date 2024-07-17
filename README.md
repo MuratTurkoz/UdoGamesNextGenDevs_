@@ -47,7 +47,7 @@ You move your character with a joystick and your character automatically shoots 
 
 ## Theme
 * One of our team members came up with an idea related to the theme of the game while discussing. We all agreed on the same topic.
-<img src= "Readme images/teama.png">
+<img  width="1000" height="800" src= "Readme images/teama.png">
 
 
 
