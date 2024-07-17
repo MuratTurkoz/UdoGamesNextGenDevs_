@@ -108,7 +108,7 @@ Walls/Obstacles: Blocks certain paths to create some depth.
 Enemies: Will have different health, speed, damage modifiers. Will move towards the player and try to hit it.
 Upgrades: The buffs player can choose upon levelling up. Will have different variations.
 
-
+#### Summary
 - Enemy Movement
     * Fallow Algorithm
 
