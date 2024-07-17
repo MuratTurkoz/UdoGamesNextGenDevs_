@@ -24,10 +24,8 @@
 * [Yaşar Düzgün]()
 * [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
 * [Emircan İsanç]()
+* [Mert Çakır](https://www.linkedin.com/in/mert-cakir0)
 
-#### Artists
-* [Elvan Nilhan Korkmazel](https://www.linkedin.com/in/elvannilhankorkmazel/)
-* [Eray Türker](https://www.linkedin.com/in/eray-türker-a731b8259/)
 
 
 
