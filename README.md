@@ -90,7 +90,8 @@ Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile 
 
 
 ## Mekanikler
-Core Game Loop:
+#### Core Game Loop:
+
 Describes the repetitive actions and processes that players engage in while playing, which are central to the game experience: 
 You fight against procedurally spawning enemies. As you kill more enemies you will get more upgrade choices and you will try to get a higher score each time you try again.
 Basic Definition of Main Mechanic: 
