@@ -7,20 +7,29 @@
 ---
 
 ## Team
-#### Team leader
+#### Team Leader
 * [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
-  
-#### Developers
-* [Baran Öner](https://www.linkedin.com/in/baran-öner-2a4a62157/)
-* [Eyüp Öztürk](https://www.linkedin.com/in/eyupozturk04/)
+
+#### Designers
+* [Galip Diler](https://www.linkedin.com/in/galip-diler-01546b244/)
+* [Alper Dinler](https://www.linkedin.com/in/alperdinler/)
 
 #### Artists
 * [Elvan Nilhan Korkmazel](https://www.linkedin.com/in/elvannilhankorkmazel/)
 * [Eray Türker](https://www.linkedin.com/in/eray-türker-a731b8259/)
 
-#### Designers
-* [Galip Diler](https://www.linkedin.com/in/galip-diler-01546b244/)
-* [Alper Dinler](https://www.linkedin.com/in/alperdinler/)
+#### Developers
+* [Baran Öner](https://www.linkedin.com/in/baran-öner-2a4a62157/)
+* [Eyüp Öztürk](https://www.linkedin.com/in/eyupozturk04/)
+* [Yaşar Düzgün]()
+* [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
+* [Emircan İsanç]()
+
+#### Artists
+* [Elvan Nilhan Korkmazel](https://www.linkedin.com/in/elvannilhankorkmazel/)
+* [Eray Türker](https://www.linkedin.com/in/eray-türker-a731b8259/)
+
+
 
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
