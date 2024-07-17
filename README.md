@@ -77,22 +77,22 @@ You move your character with a joystick and your character automatically shoots 
 
     * Düşman tasarımlarında ise gene art ve design ekibindeki arkadaşlarımız Advanture time temasından esinledikleri için 1. seviye düşman için şeker fikrini, 2.seviye düşman tipi için cupcake fikrini, 3. seviye düşman tipi son tip düşman olacağı için daha güçlü gözükecek bir düşman tipi olmasına karar verdiler.
 
-    * Type 1 enemy
+    * Type 1 Enemy
 
     <img width="100" height="130" src="Readme images/enemy1.png">
 
-    * Type 2 enemy
+    * Type 2 Enemy
 
     <img width="100" height="130" src="Readme images/enemy2.png">
 
-    * Type 3 enemy
+    * Type 3 Enemy
 
     <img width="100" height="130" src="Readme images/enemy3.png">
 
 ## Upgrades
 <img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
 
-## "Environmental Designs"
+## Environmental Designs
 <p align="center">
 <img  width="500" height="300" src= "Readme images/1.png">
 </p>
