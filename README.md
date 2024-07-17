@@ -124,14 +124,14 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
    * Tasty Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
    * Delightful Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
 
-#### MIDDLE TIER (%30 Chance to occur in upgrades section, if all common tier is unlocked these are guaranteed to show up)
+* MIDDLE TIER (%30 Chance to occur in upgrades section, if all common tier is unlocked these are guaranteed to show up)
 
-Refined Jelly Strings => Arrow Velocity +%25
-Juicy Jelly Strings => Arrow Speed +%25
-Piercing Candies => Arrows will pierce through enemies However they will only deal the leftover damage. For example if an arrow dealt 3 damage to 1 health enemy the arrow will pierce through and can deal max 2 damage to next enemy.
-Eyes Behind My Back => Character now shoots arrows both ways
-Split Bow => Character will shoot arrows to left and right as well, however -0.25 Damage for each arrow (If this upgrade is chosen you can’t choose Concentrate Fire)
-Concentrate Fire => Character now shoots three arrows to front with 30° degrees between each arrow, however -%25 attack speed (If this upgrade is chosen you can’t choose Split Bow)
+   * Refined Jelly Strings => Arrow Velocity +%25
+   * Juicy Jelly Strings => Arrow Speed +%25
+   * Piercing Candies => Arrows will pierce through enemies However they will only deal the leftover damage. For example if an arrow dealt 3 damage to 1 health enemy the arrow will pierce through and can deal max 2 damage to next enemy.
+   * Eyes Behind My Back => Character now shoots arrows both ways
+   * Split Bow => Character will shoot arrows to left and right as well, however -0.25 Damage for each arrow (If this upgrade is chosen you can’t choose Concentrate Fire)
+   Concentrate Fire => Character now shoots three arrows to front with 30° degrees between each arrow, however -%25 attack speed (If this upgrade is chosen you can’t choose Split Bow)
 
 
 RARE TIER (%5 Chance to occur in upgrades section)
