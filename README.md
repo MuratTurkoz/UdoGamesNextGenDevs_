@@ -53,7 +53,7 @@ You move your character with a joystick and your character automatically shoots 
 
 
 ## Story
-- Hikaye aşamasında şu fikirleri tartıştık: 
+- In the story stage, we discussed the following ideas:
     * Şeker yaratıkları üreten bir bilim adamının 
     * Fabrikasından çıkan şeker canavarlarıyla savaşma
     halkının karnını doyurmak için şeker yaratıkları avlayan bir avcı
