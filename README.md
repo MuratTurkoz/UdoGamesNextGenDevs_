@@ -131,11 +131,11 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
    * Piercing Candies => Arrows will pierce through enemies However they will only deal the leftover damage. For example if an arrow dealt 3 damage to 1 health enemy the arrow will pierce through and can deal max 2 damage to next enemy.
    * Eyes Behind My Back => Character now shoots arrows both ways
    * Split Bow => Character will shoot arrows to left and right as well, however -0.25 Damage for each arrow (If this upgrade is chosen you can’t choose Concentrate Fire)
-   Concentrate Fire => Character now shoots three arrows to front with 30° degrees between each arrow, however -%25 attack speed (If this upgrade is chosen you can’t choose Split Bow)
+   * Concentrate Fire => Character now shoots three arrows to front with 30° degrees between each arrow, however -%25 attack speed (If this upgrade is chosen you can’t choose Split Bow)
 
 
-RARE TIER (%5 Chance to occur in upgrades section)
-Additional Candies => Arrow Count + 1 to every direction that you are able to shoot (2 arrows fired at the same time)
+* RARE TIER (%5 Chance to occur in upgrades section)
+   * Additional Candies => Arrow Count + 1 to every direction that you are able to shoot (2 arrows fired at the same time)
 
 #### Summary
 - Enemy Movement
