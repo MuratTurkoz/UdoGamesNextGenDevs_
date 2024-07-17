@@ -175,9 +175,7 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
     <img width="100" height="130" src="Readme images/enemy3.png">
 
 ## Upgrades
-<img width="400" height="250" src="Readme images/upgrades.png">
-
-<img  width="400" height="250" src="Readme images/upgrades-2.png">
+<img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
 
 ## Çevre tasarımları
 <img src="Readme images/1.png">
