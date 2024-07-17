@@ -95,9 +95,9 @@ You move your character with a joystick and your character automatically shoots 
 <img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
 
 ## Environmental Designs
-<p align="center">
-<img  width="500" height="300" src= "Readme images/1.png">
-</p>
+
+<img  width="500" height="300" src= "Readme images/1.png"><img  width="500" height="300" src= "Readme images/tilemap.png">
+
 
 
 
