@@ -1,8 +1,7 @@
 # Sweet Mayhem
 
-<p align="center">
-<img width="224" height="400" src="Readme images/sweet_mayhem.png">
-</p>
+
+<img src="Readme images/kapak.png">
 
 ---
 
