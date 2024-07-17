@@ -3,7 +3,9 @@
 <p align="center">
 <img width="224" height="400" src="Readme images/sweet_mayhem.png">
 </p>
+
 ---
+
 ## Team
 #### Team leader
 * [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
