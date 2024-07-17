@@ -40,6 +40,10 @@ You move your character with a joystick and your character automatically shoots 
 
 # Devlopment process
 
+* The name of the game: Sweet Mayhem 
+* The team working on it: Udo Games NextGen Devs 2024 – Team 2
+* Project duration: 1 week
+
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
 <img src= "Readme images/teama.png">
