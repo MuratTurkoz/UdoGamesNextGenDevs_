@@ -3,16 +3,19 @@
 <p align="center">
 <img width="224" height="400" src="Readme images/sweet_mayhem.png">
 </p>
+---
+## Team
+#### Team leader
+* [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
+
+
+
 
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
 <img src= "Readme images/teama.png">
----
 
 
-## Team
-#### Team leader
-* [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
 
 
 ## Hikaye
