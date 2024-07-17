@@ -46,8 +46,8 @@ You move your character with a joystick and your character automatically shoots 
 
 
 ## Theme
-Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
-<img src= "Readme images/teama.png">
+* One of our team members came up with an idea related to the theme of the game while discussing. We all agreed on the same topic.
+* <img src= "Readme images/teama.png">
 
 
 
