@@ -111,7 +111,7 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 #### Upgrades
 
 #### Character Upgrades
-#### * COMMON TIER (%65 Chance to occur in upgrades section)
+#### COMMON TIER (%65 Chance to occur in upgrades section)
 * Strawberry Jam => +2.5 HP
 * Greater Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
 * Delicious Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
@@ -125,7 +125,7 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 * Tasty Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
 * Delightful Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
 
-#### * MIDDLE TIER (%30 Chance to occur in upgrades section, if all common tier is unlocked these are guaranteed to show up)
+#### MIDDLE TIER (%30 Chance to occur in upgrades section, if all common tier is unlocked these are guaranteed to show up)
 
 Refined Jelly Strings => Arrow Velocity +%25
 Juicy Jelly Strings => Arrow Speed +%25
