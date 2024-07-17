@@ -9,7 +9,10 @@
 ## Team
 #### Team leader
 * [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
-
+  
+#### Developers
+* [Baran Öner](https://www.linkedin.com/in/baran-öner-2a4a62157/)
+* [Eyüp Öztürk](https://www.linkedin.com/in/eyupozturk04/)
 
 
 
