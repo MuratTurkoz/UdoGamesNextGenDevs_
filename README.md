@@ -90,6 +90,15 @@ Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile 
 
 
 ## Mekanikler
+Core Game Loop:
+Describes the repetitive actions and processes that players engage in while playing, which are central to the game experience: 
+You fight against procedurally spawning enemies. As you kill more enemies you will get more upgrade choices and you will try to get a higher score each time you try again.
+Basic Definition of Main Mechanic: 
+Short description of main gameplay element: 
+You move your character with a joystick and your character automatically shoots bullets/arrows the way it faces (there may be another joystick to control where you are firing at). 
+Few enemy types will directly move towards the player to deal contact damage trying to kill it with every enemy type having different stats.
+
+
 - Enemy Movement
     * Fallow Algorithm
 
