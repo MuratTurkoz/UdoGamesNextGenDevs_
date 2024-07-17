@@ -179,4 +179,5 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 
 ## Çevre tasarımları
 <img src="Readme images/1.png">
+
 ## UI tasarımları
