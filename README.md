@@ -49,7 +49,7 @@ You move your character with a joystick and your character automatically shoots 
 * While discussing it, one of our teammates came up with an idea regarding the theme of the game. This idea became the "Adventure Time" concept. All our teammates accepted this idea.
   
 <p align="center">
-<img  width="500" height="300" src= "Readme images/teama.png">
+<img  width="500" height="300" src= "Readme images/tema.png">
 </p>
 
 
