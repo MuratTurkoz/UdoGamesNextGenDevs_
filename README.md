@@ -67,14 +67,17 @@ You move your character with a joystick and your character automatically shoots 
 ## Character Design
 - Player
 
-    * karakter tasarımı kısmında art ve designer ekibi olarak elinde yay bulunması kararı alındı. Bü yüzden karakterin robin hood vari bir karakter olması fikrini aldık.
+    * In the character design phase, the decision was made for the character to have a bow, with Art and Design teams. Therefore, we took the idea for the character to be a Robin Hood-like figure.
 
     <img width="100" height="130" src="Readme images/Player.png">
 
 
 - Enemies
 
-    * Düşman tasarımlarında ise gene art ve design ekibindeki arkadaşlarımız Advanture time temasından esinledikleri için 1. seviye düşman için şeker fikrini, 2.seviye düşman tipi için cupcake fikrini, 3. seviye düşman tipi son tip düşman olacağı için daha güçlü gözükecek bir düşman tipi olmasına karar verdiler.
+    * In enemy designs, inspired by the Adventure Time theme, our colleagues in the Art and Design team decided on the following:
+      * For the 1st level enemy, they opted for the candy concept.
+      * For the 2nd level enemy type, they chose the cupcake idea.
+      * The 3rd level enemy, being the final boss, will be a more powerful and intimidating type of enemy.
 
     * Type 1 Enemy
 
