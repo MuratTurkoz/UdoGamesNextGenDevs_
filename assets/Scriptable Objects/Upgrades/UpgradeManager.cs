@@ -35,7 +35,8 @@ public class UpgradeManager : MonoBehaviour
             buttons[i].GetComponent<UpgradeBtn>().SetUpgrade(upgrades[randomList[i]].name, upgrades[randomList[i]].description, 
             upgrades[randomList[i]].level, upgrades[randomList[i]].artwork, upgrades[randomList[i]].id, upgrades[randomList[i]].healthChange, 
             upgrades[randomList[i]].attackChange, upgrades[randomList[i]].speedChange, upgrades[randomList[i]].arrowSpeedChange,
-            upgrades[randomList[i]].eyesBehindMyBack, upgrades[randomList[i]].concentrateFire, upgrades[randomList[i]].turningSword, upgrades[randomList[i]].upgradedVersion);
+            upgrades[randomList[i]].eyesBehindMyBack, upgrades[randomList[i]].concentrateFire, upgrades[randomList[i]].turningSword,
+            upgrades[randomList[i]].addCandie, upgrades[randomList[i]].splitBow, upgrades[randomList[i]].upgradedVersion);
             
             
         }

@@ -19,6 +19,8 @@ public class Upgrade : ScriptableObject
    public bool eyesBehindMyBack;
    public bool concentrateFire;
    public bool turningSword;
+   public bool addCandie;
+   public bool splitBow;
    public Upgrade upgradedVersion;
 
 }

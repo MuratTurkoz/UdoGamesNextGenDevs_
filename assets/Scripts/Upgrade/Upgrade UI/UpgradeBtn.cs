@@ -23,7 +23,9 @@ public class UpgradeBtn : MonoBehaviour
     [SerializeField] Float playerCurrentHealth;
     [SerializeField] Float arrowSpeed;
     [SerializeField] GameObject originalBow;
-    [SerializeField] GameObject extraBow;
+    [SerializeField] GameObject bow180;
+    [SerializeField] GameObject bow90;
+    [SerializeField] GameObject bow270;
     [SerializeField] GameObject turningSword;
     private float btnHealthChange;
     private float btnAttackChange;
@@ -32,6 +34,8 @@ public class UpgradeBtn : MonoBehaviour
     private bool btnEyesBehindMyBack;
     private bool btnConcentrateFire;
     private bool btnTurningSword;
+    private bool btnAddCandie;
+    private bool btnSplitBow;
     private int btnID;
     private Upgrade btnUpgradedVersion;
     
@@ -54,13 +58,18 @@ public class UpgradeBtn : MonoBehaviour
         Debug.Log(_upgradeNameTMP);
 
         if(btnEyesBehindMyBack){
-            extraBow.SetActive(true);
+            bow180.SetActive(true);
             upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
         }
         if(btnConcentrateFire){
             originalBow.GetComponent<Bow>().arrowCount = 3;
-            extraBow.GetComponent<Bow>().arrowCount = 3;
+            originalBow.GetComponent<Bow>().spreadAngle = 30;
             upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
+            for(int i = 0; i<upgradeManager.GetComponent<UpgradeManager>().upgrades.Count; i++){
+                if(upgradeManager.GetComponent<UpgradeManager>().upgrades[i].name == "Additional Candies"){
+                    upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(i);
+                }
+            }
             
             
             
@@ -70,6 +79,29 @@ public class UpgradeBtn : MonoBehaviour
             upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
             
             
+        }
+        if(btnAddCandie){
+            originalBow.GetComponent<Bow>().arrowCount = 2;
+            originalBow.GetComponent<Bow>().spreadAngle = 5;
+            bow180.GetComponent<Bow>().arrowCount = 2;
+            bow180.GetComponent<Bow>().spreadAngle = 5;
+            bow90.GetComponent<Bow>().arrowCount = 2;
+            bow90.GetComponent<Bow>().spreadAngle = 5;
+            bow270.GetComponent<Bow>().arrowCount = 2;
+            bow270.GetComponent<Bow>().spreadAngle = 5;
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
+
+             for(int i = 0; i<upgradeManager.GetComponent<UpgradeManager>().upgrades.Count; i++){
+                if(upgradeManager.GetComponent<UpgradeManager>().upgrades[i].name == "Concentrate Fire"){
+                    upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(i);
+                }
+            }
+
+        }
+        if(btnSplitBow){
+            bow90.SetActive(true);
+            bow270.SetActive(true);
+            upgradeManager.GetComponent<UpgradeManager>().upgrades.RemoveAt(btnID);
         }
         
         if(!(btnUpgradedVersion == null || btnConcentrateFire || btnEyesBehindMyBack || btnTurningSword)){
@@ -85,7 +117,8 @@ public class UpgradeBtn : MonoBehaviour
 
     }
 
-    public void SetUpgrade(string name, string desc, int lvl, Sprite icon,int id, float healthChange, float attackChange, float speedChange, float arrowSpeedChange, bool eyesBehindMyBack, bool concentrateFire, bool turningSword, Upgrade upgradedVersion)
+    public void SetUpgrade(string name, string desc, int lvl, Sprite icon,int id, float healthChange, float attackChange, float speedChange, float arrowSpeedChange, bool eyesBehindMyBack, 
+    bool concentrateFire, bool turningSword, bool addCandie, bool splitBow, Upgrade upgradedVersion)
     {
         _upgradeNameTMP.text = name;
         _upgradeDescriptionTMP.text = desc;
@@ -100,6 +133,8 @@ public class UpgradeBtn : MonoBehaviour
         btnEyesBehindMyBack = eyesBehindMyBack;
         btnConcentrateFire = concentrateFire;
         btnTurningSword = turningSword;
+        btnAddCandie = addCandie;
+        btnSplitBow = splitBow;
         btnUpgradedVersion = upgradedVersion;
     }
    private void OnDestroy()

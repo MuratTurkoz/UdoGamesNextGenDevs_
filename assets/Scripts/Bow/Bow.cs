@@ -15,13 +15,21 @@ public class Bow : MonoBehaviour
     public int arrowCount = 3; // Number of arrows to shoot
     public float spreadAngle = 10.0f; // Spreading angle between arrows
 
-    [SerializeField] private bool _arrowsSpawningForward = true;
+    [SerializeField] private bool is180 = false;
+    [SerializeField] private bool is90 = false;
+    [SerializeField] private bool is270 = false;
 
     private void Awake() {
         _attackRate.Value = _defaultAttackRate;
-        if (!_arrowsSpawningForward)
+        if (is180)
         {
             transform.eulerAngles += new Vector3(0, 0, 180);
+        }
+        if(is90){
+           transform.eulerAngles += new Vector3(0, 0, 90);
+        }
+        if(is270){
+            transform.eulerAngles += new Vector3(0, 0, 270);
         }
     }
 
