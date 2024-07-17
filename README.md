@@ -137,6 +137,15 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 * RARE TIER (%5 Chance to occur in upgrades section)
    * Additional Candies => Arrow Count + 1 to every direction that you are able to shoot (2 arrows fired at the same time)
 
+* COMBINED TIER (%30 Chance to occur in upgrades section, if all the requirements are met)
+   * Legendary Split Candy Bow => Player now shoots in 4 directions with +%25 attack speed (Eyes Behind My Back + Split Bow, must be acquired to get this upgrade or player will not see this upgrade)
+   * Legendary Candy Arrows => Piercing arrows now deals full damage to next enemy. (Sharper Candy + Piercing Candies, must be acquired to get this upgrade or player will not see this upgrade)
+   * Legendary Focus Candy Bow => Player now shoots three arrows to front and back with 30° degrees between each arrow +0.25 Damage
+* REPEATING TIER (%65 Chance to occur in upgrades section)
+   * Healing Jelly => Heals the player by 4 HP
+   * Restoration Jelly => Heals the player by 8 HP
+   * Holy Jelly => Heals the player to full HP
+
 #### Summary
 - Enemy Movement
     * Fallow Algorithm
