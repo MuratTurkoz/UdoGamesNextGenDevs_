@@ -30,6 +30,9 @@
 ## Summary
 You play as a character who tries to survive against an endless amount of candy enemies and as you kill your enemies you will get upgrades to make you stronger.
 
+## How to play
+You move your character with a joystick and your character automatically shoots bullets/arrows the way it faces.
+
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
 <img src= "Readme images/teama.png">
