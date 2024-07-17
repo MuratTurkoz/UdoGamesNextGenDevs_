@@ -92,8 +92,11 @@ You move your character with a joystick and your character automatically shoots 
 ## Upgrades
 <img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
 
-## Çevre tasarımları
-<img src="Readme images/1.png">
+## "Environmental Designs"
+<p align="center">
+<img  width="500" height="300" src= "Readme images/1.png">
+</p>
+
 
 
 
@@ -179,4 +182,3 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 - Score
     * Player earns points for each second passed, however, the score is multiplied by the Player's level coefficient for each second as the Player's level increases.
 
-## UI tasarımları
