@@ -14,7 +14,9 @@
 * [Baran Öner](https://www.linkedin.com/in/baran-öner-2a4a62157/)
 * [Eyüp Öztürk](https://www.linkedin.com/in/eyupozturk04/)
 
-
+#### Artists
+* [Elvan Nilhan Korkmazel](https://www.linkedin.com/in/elvannilhankorkmazel/)
+* [Eray Türker](https://www.linkedin.com/in/eray-türker-a731b8259/)
 
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
