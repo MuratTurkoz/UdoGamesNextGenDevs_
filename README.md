@@ -63,6 +63,37 @@ You move your character with a joystick and your character automatically shoots 
 * En son olarak bu fikir bütün takımın içine sindi ve bu hikaye kurgusunda karar kıldık: 
     - çocukları kaçırılan kahraman cadıya ulaşmak için şeker canavarlarıyla savaşan baba.
 
+# Designs
+
+## Character Design
+- Player
+
+    * karakter tasarımı kısmında art ve designer ekibi olarak elinde yay bulunması kararı alındı. Bü yüzden karakterin robin hood vari bir karakter olması fikrini aldık.
+
+    <img width="100" height="130" src="Readme images/Player.png">
+
+
+- Enemies
+
+    * Düşman tasarımlarında ise gene art ve design ekibindeki arkadaşlarımız Advanture time temasından esinledikleri için 1. seviye düşman için şeker fikrini, 2.seviye düşman tipi için cupcake fikrini, 3. seviye düşman tipi son tip düşman olacağı için daha güçlü gözükecek bir düşman tipi olmasına karar verdiler.
+
+    * Type 1 enemy
+
+    <img width="100" height="130" src="Readme images/enemy1.png">
+
+    * Type 2 enemy
+
+    <img width="100" height="130" src="Readme images/enemy2.png">
+
+    * Type 3 enemy
+
+    <img width="100" height="130" src="Readme images/enemy3.png">
+
+## Upgrades
+<img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
+
+## Çevre tasarımları
+<img src="Readme images/1.png">
 
 
 
@@ -147,37 +178,5 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 
 - Score
     * Player earns points for each second passed, however, the score is multiplied by the Player's level coefficient for each second as the Player's level increases.
-
-# Designs
-
-## Character Design
-- Player
-
-    * karakter tasarımı kısmında art ve designer ekibi olarak elinde yay bulunması kararı alındı. Bü yüzden karakterin robin hood vari bir karakter olması fikrini aldık.
-
-    <img width="100" height="130" src="Readme images/Player.png">
-
-
-- Enemies
-
-    * Düşman tasarımlarında ise gene art ve design ekibindeki arkadaşlarımız Advanture time temasından esinledikleri için 1. seviye düşman için şeker fikrini, 2.seviye düşman tipi için cupcake fikrini, 3. seviye düşman tipi son tip düşman olacağı için daha güçlü gözükecek bir düşman tipi olmasına karar verdiler.
-
-    * Type 1 enemy
-
-    <img width="100" height="130" src="Readme images/enemy1.png">
-
-    * Type 2 enemy
-
-    <img width="100" height="130" src="Readme images/enemy2.png">
-
-    * Type 3 enemy
-
-    <img width="100" height="130" src="Readme images/enemy3.png">
-
-## Upgrades
-<img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
-
-## Çevre tasarımları
-<img src="Readme images/1.png">
 
 ## UI tasarımları
