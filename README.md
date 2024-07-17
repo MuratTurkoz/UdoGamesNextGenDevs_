@@ -146,9 +146,9 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 - Score
     * Player earns points for each second passed, however, the score is multiplied by the Player's level coefficient for each second as the Player's level increases.
 
-## Designs
+# Designs
 
-# Character Design
+## Character Design
 - Player
 
     * karakter tasarımı kısmında art ve designer ekibi olarak elinde yay bulunması kararı alındı. Bü yüzden karakterin robin hood vari bir karakter olması fikrini aldık.
