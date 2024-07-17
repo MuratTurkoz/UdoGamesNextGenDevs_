@@ -159,7 +159,7 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 
 #### Summary
 - Enemy Movement
-    * Fallow Algorithm
+    * Follow Algorithm
 
 - Player Movement
     * Joystic
