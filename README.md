@@ -33,6 +33,9 @@ You play as a character who tries to survive against an endless amount of candy 
 ## How to play
 You move your character with a joystick and your character automatically shoots bullets/arrows the way it faces.
 
+## Resources
+[Drive](https://drive.google.com/drive/folders/1U0HxleN9pIbQaf0dj1RrxdRSQZVLE7zh?usp=sharing)
+
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
 <img src= "Readme images/teama.png">
