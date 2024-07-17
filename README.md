@@ -108,22 +108,21 @@ Walls/Obstacles: Blocks certain paths to create some depth.
 Enemies: Will have different health, speed, damage modifiers. Will move towards the player and try to hit it.
 Upgrades: The buffs player can choose upon levelling up. Will have different variations.
 
-#### Upgrades
 
 #### Character Upgrades
-#### COMMON TIER (%65 Chance to occur in upgrades section)
-* Strawberry Jam => +2.5 HP
-* Greater Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
-* Delicious Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
-* Epic Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
+* COMMON TIER (%65 Chance to occur in upgrades section)
+   * Strawberry Jam => +2.5 HP
+   * Greater Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
+   * Delicious Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
+   * Epic Strawberry Jam => +2.5 HP (previous tiers must be acquired first)
 
-* Sharp Candy => +1 DMG
-* Sharper Candy => +1 DMG (previous tiers must be acquired first)
-
-* Tiny Switf Chocolate => +0.5 SPD
-* Medium Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
-* Tasty Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
-* Delightful Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
+   * Sharp Candy => +1 DMG
+   * Sharper Candy => +1 DMG (previous tiers must be acquired first)
+   
+   * Tiny Switf Chocolate => +0.5 SPD
+   * Medium Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
+   * Tasty Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
+   * Delightful Switf Chocolate => +0.5 SPD (previous tiers must be acquired first)
 
 #### MIDDLE TIER (%30 Chance to occur in upgrades section, if all common tier is unlocked these are guaranteed to show up)
 
