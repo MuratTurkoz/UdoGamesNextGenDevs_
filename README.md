@@ -55,13 +55,12 @@ You move your character with a joystick and your character automatically shoots 
 
 
 ## Story
-- In the story stage, we discussed the following ideas:
-    * Şeker yaratıkları üreten bir bilim adamının 
-    * Fabrikasından çıkan şeker canavarlarıyla savaşma
-    halkının karnını doyurmak için şeker yaratıkları avlayan bir avcı
+* In the story stage, we discussed the following ideas:
+    * A scientist who creates candy creatures
+    * Battling candy monsters coming out of his factory, a hunter who hunts candy creatures to feed his people.
 
-* En son olarak bu fikir bütün takımın içine sindi ve bu hikaye kurgusunda karar kıldık: 
-    - çocukları kaçırılan kahraman cadıya ulaşmak için şeker canavarlarıyla savaşan baba.
+* Finally, this idea resonated with the entire team, and we decided on this storyline:
+    * A father who battles candy monsters to reach the witch who kidnapped his children.
 
 # Designs
 
