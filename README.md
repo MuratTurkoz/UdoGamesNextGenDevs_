@@ -36,6 +36,8 @@ You move your character with a joystick and your character automatically shoots 
 ## Resources
 [Drive](https://drive.google.com/drive/folders/1U0HxleN9pIbQaf0dj1RrxdRSQZVLE7zh?usp=sharing)
 
+---
+
 # Devlopment process
 
 ## Tema
