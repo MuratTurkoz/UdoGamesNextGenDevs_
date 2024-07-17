@@ -21,7 +21,7 @@ public class Bow : MonoBehaviour
         _attackRate.Value = _defaultAttackRate;
         if (!_arrowsSpawningForward)
         {
-            transform.eulerAngles = new Vector3(0, 200, 0);
+            transform.eulerAngles += new Vector3(0, 0, 180);
         }
     }
 

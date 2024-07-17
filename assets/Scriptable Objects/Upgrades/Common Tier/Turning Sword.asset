@@ -15,8 +15,8 @@ MonoBehaviour:
   upgradeName: Turning Sword
   id: 7
   description: Get a turning sword
-  level: 0
-  artwork: {fileID: -845562134, guid: 4d8504cf7f30f8d4b96860bed4d96921, type: 3}
+  level: 1
+  artwork: {fileID: 21300000, guid: ab5ff851d90ba104685aa65280e74445, type: 3}
   healthChange: 0
   attackChange: 0
   speedChange: 0
