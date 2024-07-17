@@ -1,8 +1,8 @@
 # Sweet Mayhem
-<img src="Readme images/sweet_mayhem.png">
+<img width="500" height="1500" src="Readme images/sweet_mayhem.png">
 ## Tema
 Oyunun teması hakkında konuşurken bir ekip arkadaşımız Adventure time ile bir fikirde bulundu. hepimiz aynı konuda kararlaştık
-<img width="500" height="1500" src ="Readme images/teama.png">
+<img src= "Readme images/teama.png">
 
 
 ## Hikaye
