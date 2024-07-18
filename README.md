@@ -70,7 +70,7 @@ The character is controlled using a joystick, and bullets/arrows are automatical
 
     * In the character design phase, the decision was made for the character to have a bow, with Art and Design teams. Therefore, we took the idea for the character to be a Robin Hood-like figure.
 
-    <img width="100" height="130" src="Readme images/Player.png">
+    <img width="100" height="130" src="Readme images/image.png">
 
 
 - Enemies
