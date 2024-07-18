@@ -103,6 +103,11 @@ You move your character with a joystick and your character automatically shoots 
 
 
 ## Mechanics
+
+<p align="center">
+<img  width="500" height="300" src= "Readme images/diagram.png">
+</p>
+
 #### Core Game Loop:
 
 * Describes the repetitive actions and processes that players engage in while playing, which are central to the game experience: 
