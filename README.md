@@ -166,25 +166,25 @@ Upgrades: The buffs player can choose upon levelling up. Will have different var
 
 #### Summary
 - Enemy Movement
-    * Follow Algorithm
-
+    * An algorithm that allows the enemy to chase the player
+      
 - Player Movement
-    * Joystic
+    * Controlled with a joystick.
 
 - Enemy Shoot
     * Collusion damage
 
 - Player Shoot
-    * Linked with joy
+    * Linked to joystick.
 
 - Enemy Spawn
-    * Out of camera
+    * Enemies spawn outside the camera.
 
 - XP
-    * drop from enemies
+    * Player collects orbs from the ground.
 
 - Buff
-    * Linked with joy
+    * Linked with XP
 
 - Score
     * Player earns points for each second passed, however, the score is multiplied by the Player's level coefficient for each second as the Player's level increases.
