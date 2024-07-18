@@ -94,13 +94,13 @@ The character is controlled using a joystick, and bullets/arrows are automatical
 ## Upgrades
 <img width="400" height="250" src="Readme images/upgrades.png"><img  width="400" height="250" src="Readme images/upgrades-2.png">
 
-In the upgrade section, we asked our artist friends in our team to translate the upgrades written in the GDD file into the picture.
+* In the upgrade section, we asked our artist friends in our team to translate the upgrades written in the GDD file into the picture.
 
 ## Environmental Designs
 
 <img  width="400" height="225" src= "Readme images/1.png"><img  width="400" height="225" src= "Readme images/tilemap.png">
 
-In environmental designs, since our theme is focused on "candy" and "chocolate", we made the environmental details pink-focused and the background brown-focused.
+* In environmental designs, since our theme is focused on "candy" and "chocolate", we made the environmental details pink-focused and the background brown-focused.
 
 
 
