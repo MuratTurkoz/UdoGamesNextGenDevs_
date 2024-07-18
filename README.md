@@ -105,7 +105,7 @@ You move your character with a joystick and your character automatically shoots 
 ## Mechanics
 
 <p align="center">
-<img  width="500" height="300" src= "Readme images/diagram.png">
+<img  width="700" height="300" src= "Readme images/diagram.png">
 </p>
 
 #### Core Game Loop:
