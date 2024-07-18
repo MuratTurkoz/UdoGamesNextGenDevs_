@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lootDatas: {fileID: 11400000, guid: 9992ccd0a33073149b5abcc89c59e650, type: 2}
-  _maxHealth: 5
+  _maxHealth: 1
 --- !u!95 &3427771922635867682
 Animator:
   serializedVersion: 5

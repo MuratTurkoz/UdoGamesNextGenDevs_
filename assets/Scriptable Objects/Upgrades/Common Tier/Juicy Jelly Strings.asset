@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Juicy Jelly Strings
   m_EditorClassIdentifier: 
   upgradeName: Refined Jelly Strings
-  id: 3
+  id: 1
   description: Arrow Speed +%25
   level: 1
   artwork: {fileID: -1238025459, guid: 4d8504cf7f30f8d4b96860bed4d96921, type: 3}
@@ -24,4 +24,6 @@ MonoBehaviour:
   eyesBehindMyBack: 0
   concentrateFire: 0
   turningSword: 0
-  upgradedVersion: {fileID: 11400000, guid: 95a434d2012b4054aa5103380d796220, type: 2}
+  addCandie: 0
+  splitBow: 0
+  upgradedVersion: {fileID: 11400000, guid: ef5cf40d920641042b6cb1cbe816a9ba, type: 2}

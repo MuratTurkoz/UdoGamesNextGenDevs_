@@ -32,6 +32,6 @@ public class SoundManager : MonoBehaviour
 
     public void PlayArrowWhoosh()
     {
-        AudioSource.PlayClipAtPoint(_arrowWhoosh, _mainCamera.position, 0.3f);
+        AudioSource.PlayClipAtPoint(_arrowWhoosh, _mainCamera.position, 0.1f);
     }
 }
