@@ -27,10 +27,10 @@
 
 
 ## Summary
-You play as a character who tries to survive against an endless amount of candy enemies and as you kill your enemies you will get upgrades to make you stronger.
+The player assumes the role of a character striving to survive against an endless array of candy enemies. Defeating these enemies grants upgrades that enhance the character's strength.
 
 ## How to play
-You move your character with a joystick and your character automatically shoots bullets/arrows the way it faces.
+The character is controlled using a joystick, and bullets/arrows are automatically fired in the direction the character faces.
 
 ## Resources
 [Drive](https://drive.google.com/drive/folders/1U0HxleN9pIbQaf0dj1RrxdRSQZVLE7zh?usp=sharing)
