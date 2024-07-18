@@ -55,7 +55,7 @@ public class UpgradeBtn : MonoBehaviour
         playerCurrentHealth.Value += btnHealthChange; 
         arrowSpeed.Value += arrowSpeed.Value * btnArrowSpeedChange;
 
-        Debug.Log(_upgradeNameTMP);
+        
 
         if(btnEyesBehindMyBack){
             bow180.SetActive(true);

@@ -15869,7 +15869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 853147188}
   _attackRate: {fileID: 11400000, guid: d9a75a76bb4edd542ada42ce513149ae, type: 2}
-  _defaultAttackRate: 0.3
+  _defaultAttackRate: 0.5
   pool: {fileID: 442971611}
   arrowCount: 1
   spreadAngle: 10
@@ -15975,7 +15975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 853147188}
   _attackRate: {fileID: 11400000, guid: d9a75a76bb4edd542ada42ce513149ae, type: 2}
-  _defaultAttackRate: 0.3
+  _defaultAttackRate: 0.5
   pool: {fileID: 913260876}
   arrowCount: 1
   spreadAngle: 10
@@ -16790,7 +16790,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bbf8638a8a75d9c42b93639213c92c9b,
+      objectReference: {fileID: 21300000, guid: ba15fea58bedcff4dbfc720b5a12d04b,
         type: 3}
     - target: {fileID: 636454197214148111, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
@@ -23795,6 +23795,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234821980135381499, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
+      propertyPath: defaultArrowSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234821980135381499, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: defaultDamageAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234821980135381499, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
       propertyPath: upgrades.Array.size
       value: 10
       objectReference: {fileID: 0}
@@ -23868,6 +23878,11 @@ PrefabInstance:
       propertyPath: spreadAngle
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4313598277397567171, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: _defaultAttackRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4343493472268598096, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       propertyPath: m_SortingLayer
@@ -23882,7 +23897,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 87a7c4321fd50514c8e41d6779a071da,
+      objectReference: {fileID: 21300000, guid: f3490ca1f383a61439eb811ad4085f42,
         type: 3}
     - target: {fileID: 4486739823228109317, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
@@ -23948,12 +23963,17 @@ PrefabInstance:
     - target: {fileID: 5134349674052173642, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5232362733692655998, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       propertyPath: is180
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232362733692655998, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: _defaultAttackRate
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5572013875489610120, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
@@ -24115,6 +24135,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 6519281715139377877, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e679a3bce882fd4190ca6000c3f51ca,
+        type: 3}
     - target: {fileID: 6676339096316456253, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       propertyPath: m_SortingLayer
@@ -24205,6 +24231,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1421454973
       objectReference: {fileID: 0}
+    - target: {fileID: 8111435166846473989, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd954c45da493314384e63f35a845bf1,
+        type: 3}
     - target: {fileID: 8348807978652866241, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       propertyPath: m_SortingLayer
@@ -24268,6 +24300,10 @@ PrefabInstance:
         type: 3}
       insertIndex: 8
       addedObject: {fileID: 913260877}
+    - targetCorrespondingSourceObject: {fileID: 4848548495899427826, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 442702259}
     - targetCorrespondingSourceObject: {fileID: 2680389299474185236, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       insertIndex: -1
@@ -24276,10 +24312,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 627124975}
-    - targetCorrespondingSourceObject: {fileID: 4848548495899427826, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 442702259}
     - targetCorrespondingSourceObject: {fileID: 722832469444644379, guid: 87fd2cc47061f4fe5b83b9ff88e9e52d,
         type: 3}
       insertIndex: -1
@@ -24360,6 +24392,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sound Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505899373802084111, guid: 2c1aaabd92119e04bbe5746d41811411,
+        type: 3}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24590,6 +24627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007703130851035942, guid: ba4d9f942ea93904298aea83e412b291,
+        type: 3}
+      propertyPath: speed
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8302679352172822488, guid: ba4d9f942ea93904298aea83e412b291,
         type: 3}

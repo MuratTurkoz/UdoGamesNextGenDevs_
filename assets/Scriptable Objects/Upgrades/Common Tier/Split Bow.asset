@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Split Bow
   m_EditorClassIdentifier: 
   upgradeName: Split Bow
-  id: 4
+  id: 6
   description: Shoot left and right!
   level: 0
   artwork: {fileID: -1305662500, guid: 79d31dfbf69c3d74fa043938cc25a2d4, type: 3}
   healthChange: 0
-  attackChange: -0.25
+  attackChange: 0
   speedChange: 0
   arrowSpeedChange: 0
   eyesBehindMyBack: 0
