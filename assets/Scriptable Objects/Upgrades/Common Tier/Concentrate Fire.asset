@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Concentrate Fire
   m_EditorClassIdentifier: 
   upgradeName: Concentrate Fire
-  id: 0
+  id: 1
   description: Shoot 3 arrows!
   level: 1
   artwork: {fileID: -752917858, guid: 4d8504cf7f30f8d4b96860bed4d96921, type: 3}
@@ -24,4 +24,6 @@ MonoBehaviour:
   eyesBehindMyBack: 0
   concentrateFire: 1
   turningSword: 0
+  addCandie: 0
+  splitBow: 0
   upgradedVersion: {fileID: 0}

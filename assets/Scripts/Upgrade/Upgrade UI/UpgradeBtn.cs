@@ -21,6 +21,7 @@ public class UpgradeBtn : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] Float damageAmount;
     [SerializeField] Float playerCurrentHealth;
+    [SerializeField] Float moveSpeed;
     [SerializeField] Float arrowSpeed;
     [SerializeField] GameObject originalBow;
     [SerializeField] GameObject bow180;
@@ -47,12 +48,12 @@ public class UpgradeBtn : MonoBehaviour
 
     private void OnUpgradeSelect()
     {
-        Debug.Log("Upgrade Selected");
         OnUpgradeSelected?.Invoke();
         // APPLY UPGRADE
         player.GetComponent<PlayerMovement>().playerSpeed += btnSpeedChange;
         damageAmount.Value += btnAttackChange;
         playerCurrentHealth.Value += btnHealthChange; 
+        moveSpeed.Value += btnSpeedChange;
         arrowSpeed.Value += arrowSpeed.Value * btnArrowSpeedChange;
 
         
