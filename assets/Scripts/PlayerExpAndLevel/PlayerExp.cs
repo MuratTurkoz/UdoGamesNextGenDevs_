@@ -36,7 +36,7 @@ public class PlayerExp : MonoBehaviour
 
     public void GetExp(int exp)
     {
-        LogManager.Instance.ShowMessage("+" + exp + " xp!", Color.green);
+        //LogManager.Instance.ShowMessage("+" + exp + " xp!", Color.green);
         ExpAmaount += exp;
         OnGetExp?.Invoke();
         SetExp();
