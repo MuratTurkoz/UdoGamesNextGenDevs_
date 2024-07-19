@@ -21,7 +21,6 @@
 * [Baran Öner](https://www.linkedin.com/in/baran-öner-2a4a62157/)
 * [Eyüp Öztürk](https://www.linkedin.com/in/eyupozturk04/)
 * [Yaşar Düzgün](https://www.linkedin.com/in/yaşar-düzgün-72660726b)
-* [Murat Türköz](https://www.linkedin.com/in/muratturkoz/)
 * [Galip Diler](https://www.linkedin.com/in/galip-diler-01546b244/)
 * [Emircan İsanç](https://www.linkedin.com/in/emircan-isanc/)
 * [Mert Çakır](https://www.linkedin.com/in/mert-cakir0)
